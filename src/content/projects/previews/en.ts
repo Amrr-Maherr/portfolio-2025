@@ -1,47 +1,33 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import thumbnailNetflix from "../../../assets/images/projects/thumbnails/netflix-clone.jpg";
+import thumbnailStorhub from "../../../assets/images/projects/thumbnails/storhub.jpg";
+import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube-clone.jpg";
+import thumbnailOn from "../../../assets/images/projects/thumbnails/on-ecommerce.jpg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "Social habit tracking app",
+    title: "Netflix Clone",
+    slug: "netflix-clone",
+    thumbnail: thumbnailNetflix,
+    description: "Full-featured streaming platform",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    title: "StorHub",
+    slug: "storhub",
+    thumbnail: thumbnailStorhub,
+    description: "Dashboard management system",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
+    title: "YouTube Clone",
+    slug: "youtube-clone",
+    thumbnail: thumbnailYoutube,
+    description: "Video streaming platform",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
-  },
-  /**  {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  }, */
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    title: "On - Athletic eCommerce",
+    slug: "on-ecommerce",
+    thumbnail: thumbnailOn,
+    description: "Production-grade eCommerce platform",
   },
 ] as const satisfies ProjectPreview[];
