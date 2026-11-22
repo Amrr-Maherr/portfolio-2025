@@ -7,7 +7,7 @@ export interface EducationEntry {
 export const education: EducationEntry[] = [
   {
     degree: "Bachelor of Science, Management Information Systems",
-    institution: "M.E.T Academy — Mansoura, Egypt",
+    institution: "Misr Higher Institute - Mansoura, Egypt",
     period: "09/2019 -- 05/2023",
   },
 ];

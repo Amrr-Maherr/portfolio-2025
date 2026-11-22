@@ -8,6 +8,7 @@ export default {
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "redux", "axios"],
   videoBorder: true,
   live: "https://youtube-omega-gilt-35.vercel.app",
+  source: "https://github.com/Amrr-Maherr/Youtube",
   description:
     "منصة بث فيديو سريعة الاستجابة مع بحث في الوقت الفعلي، وتصفح القنوات، وميزات تشغيل الفيديو.<br/><br/>تدير حالة التطبيق باستخدام Redux Toolkit وتحسن أداء التصيير من خلال التخزين المؤقت مع TanStack Query لتجربة مستخدم سلسة.",
   components: [

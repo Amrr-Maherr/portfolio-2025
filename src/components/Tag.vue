@@ -91,6 +91,26 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       background-color: #95630e;
       color: white;
     }
+
+    &-reactnative {
+      background-color: #20232a;
+      color: #61dafb;
+    }
+
+    &-expo {
+      background-color: #000020;
+      color: white;
+    }
+
+    &-firebase {
+      background-color: #ffca28;
+      color: #3e2723;
+    }
+
+    &-groq {
+      background-color: #f55036;
+      color: white;
+    }
   }
 }
 </style>

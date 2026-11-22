@@ -25,7 +25,11 @@ export type TagVariant =
   | "shadcn"
   | "pwa"
   | "axios"
-  | "reacthookform";
+  | "reacthookform"
+  | "reactnative"
+  | "expo"
+  | "firebase"
+  | "groq";
 
 export const tagLabels = {
   three: "Three.js",
@@ -55,4 +59,8 @@ export const tagLabels = {
   pwa: "PWA",
   axios: "Axios",
   reacthookform: "React Hook Form",
+  reactnative: "React Native",
+  expo: "Expo",
+  firebase: "Firebase",
+  groq: "Groq",
 } as const satisfies Record<TagVariant, string>;

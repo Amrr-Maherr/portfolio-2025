@@ -8,6 +8,7 @@ export default {
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "zod", "framer", "swiper", "reacthookform"],
   videoBorder: false,
   live: "https://on-pied.vercel.app",
+  source: "https://github.com/Amrr-Maherr/On",
   description:
     "منصة تجارة إلكترونية بجودة إنتاجية مع نظام تصميم وحشي مخصص ودعم كامل للوضع الداكن.<br/><br/>تتميز بتصفية منتجات متقدمة، واستمرارية سلة التسوق وقائمة الرغبات، وتدفقات المصادقة مع React Hook Form والتحقق من Zod، وتحسين الأداء من خلال التحميل البطيء وتحسين الرسوم المتحركة.",
   components: [

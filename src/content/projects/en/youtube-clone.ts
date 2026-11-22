@@ -8,6 +8,7 @@ export default {
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "redux", "axios"],
   videoBorder: true,
   live: "https://youtube-omega-gilt-35.vercel.app",
+  source: "https://github.com/Amrr-Maherr/Youtube",
   description:
     "A responsive video streaming platform with real-time search, channel browsing, and video playback features.<br/><br/>Manages application state using Redux Toolkit and optimises rendering performance through memoisation and TanStack Query caching for a smooth user experience.",
   components: [
