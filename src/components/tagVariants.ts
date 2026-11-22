@@ -29,6 +29,21 @@ export type TagVariant =
   | "reactnative"
   | "expo"
   | "firebase"
+  | "radix"
+  | "zid"
+  | "storybook"
+  | "api"
+  | "ecommerce"
+  | "responsive"
+  | "accessibility"
+  | "coffee"
+  | "bilingual"
+  | "rtl"
+  | "express"
+  | "auth"
+  | "bootstrap"
+  | "dashboard"
+  | "maps"
   | "groq";
 
 export const tagLabels = {
@@ -62,5 +77,20 @@ export const tagLabels = {
   reactnative: "React Native",
   expo: "Expo",
   firebase: "Firebase",
+  radix: "Radix UI",
+  zid: "Zid",
+  storybook: "Storybook",
+  api: "API",
+  ecommerce: "eCommerce",
+  responsive: "Responsive UI",
+  accessibility: "Accessibility",
+  coffee: "Coffee",
+  bilingual: "Bilingual",
+  rtl: "RTL",
+  express: "Express",
+  auth: "Authentication",
+  bootstrap: "Bootstrap",
+  dashboard: "Dashboard",
+  maps: "Maps",
   groq: "Groq",
 } as const satisfies Record<TagVariant, string>;

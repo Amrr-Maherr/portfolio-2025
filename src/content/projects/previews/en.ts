@@ -1,3 +1,11 @@
+import newThumb0 from "../../../assets/images/projects/thumbnails/nexton-ecommerce.jpg";
+import newThumb1 from "../../../assets/images/projects/thumbnails/reeq-al-nahl.jpg";
+import newThumb2 from "../../../assets/images/projects/thumbnails/sakib.jpg";
+import newThumb3 from "../../../assets/images/projects/thumbnails/nannocare.jpg";
+import newThumb4 from "../../../assets/images/projects/thumbnails/beans-united.jpg";
+import newThumb5 from "../../../assets/images/projects/thumbnails/foushi-events.jpg";
+import newThumb6 from "../../../assets/images/projects/thumbnails/yumauth.jpg";
+import newThumb7 from "../../../assets/images/projects/thumbnails/charlottesweets.jpg";
 import thumbInin from "../../../assets/images/projects/thumbnails/inin-sport.jpg";
 import thumb0 from "../../../assets/images/projects/thumbnails/leen-world.jpg";
 import thumb1 from "../../../assets/images/projects/thumbnails/maden-florist.jpg";
@@ -65,4 +73,52 @@ export default [
     thumbnail: thumbnailYoutube,
     description: "Video streaming platform",
   },
+{
+  "title": "Nexton E-Commerce",
+  "slug": "nexton-ecommerce",
+  "thumbnail": newThumb0,
+  "description": "Front-end eCommerce application"
+},
+{
+  "title": "Reeq Al Nahl - Honey & Bee Products Store",
+  "slug": "reeq-al-nahl",
+  "thumbnail": newThumb1,
+  "description": "Honey and bee products storefront"
+},
+{
+  "title": "Sakb Perfumes",
+  "slug": "sakib",
+  "thumbnail": newThumb2,
+  "description": "Perfume storefront front-end work"
+},
+{
+  "title": "Nannocare",
+  "slug": "nannocare",
+  "thumbnail": newThumb3,
+  "description": "Global eCommerce front-end work"
+},
+{
+  "title": "Beans United",
+  "slug": "beans-united",
+  "thumbnail": newThumb4,
+  "description": "Bilingual specialty-coffee storefront"
+},
+{
+  "title": "Foushi Events",
+  "slug": "foushi-events",
+  "thumbnail": newThumb5,
+  "description": "Arabic event services website"
+},
+{
+  "title": "YumAuth",
+  "slug": "yumauth",
+  "thumbnail": newThumb6,
+  "description": "Recipe browsing and authentication app"
+},
+{
+  "title": "Charlotte Sweets",
+  "slug": "charlottesweets",
+  "thumbnail": newThumb7,
+  "description": "Sweet shop storefront and control panel"
+},
 ] as const satisfies ProjectPreview[];
