@@ -14,6 +14,8 @@ export interface Props {
   alt?: string;
   caption?: string;
   index: number;
+  natural?: boolean;
+  portrait?: boolean;
 }
 
 const props = defineProps<Props>();
@@ -21,6 +23,8 @@ const props = defineProps<Props>();
 const wrapperClasses = computed(() => {
   return {
     "project-media": true,
+    "project-media-natural": props.natural,
+    "project-media-portrait": props.portrait,
   };
 });
 
@@ -102,6 +106,20 @@ onMounted(async () => {
 
   @include mixins.mq("lg") {
     grid-column: 3 / 11;
+  }
+
+  &-natural {
+    aspect-ratio: auto;
+    height: auto;
+
+    .project-media-content, .project-media-image { height: auto; }
+    .project-media-image { display: block; object-fit: contain; }
+  }
+
+  &-portrait {
+    max-width: 320px;
+    .project-media-caption { position: relative; border-radius: 0; }
+    .project-media-caption-notch { display: none; }
   }
 
   &-caption {

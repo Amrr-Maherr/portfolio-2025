@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/on-ecommerce/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/on-ecommerce/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/on-ecommerce/gallery-2.jpg";
 import on0 from "../../../assets/images/projects/on-ecommerce/on-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: on0,
+        natural: true,
         alt: "On eCommerce platform",
         caption: "Athletic eCommerce platform",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "Running collection section", caption: "Running collection section", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "Product catalog page", caption: "Product catalog page", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "Product grid and category filters", caption: "Product grid and category filters", natural: true } },
     {
       type: "list",
       props: {

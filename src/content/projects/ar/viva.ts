@@ -1,4 +1,7 @@
-import viva0 from "../../../assets/images/projects/viva/viva-0.jpg";
+import local0 from "../../../assets/images/projects/viva/local-0.jpg";
+import local1 from "../../../assets/images/projects/viva/local-1.jpg";
+import local2 from "../../../assets/images/projects/viva/local-2.jpg";
+import local3 from "../../../assets/images/projects/viva/local-3.jpg";
 
 import type { ProjectContent } from "../../types";
 
@@ -11,15 +14,10 @@ export default {
   description:
     "تطبيق جوال للتجارة الإلكترونية متعدد المنصات مبني بـReact Native وExpo وTypeScript، يجمع تجربة تسوق كاملة مع مساعد تسوق ذكي مدعوم بـGroq (Llama 3.1).<br/><br/>يتضمن مصادقة قائمة على JWT، وكتالوج منتجات بتمرير لا نهائي، وسلة تسوق وقائمة رغبات ودفع وإدارة طلبات، واختيار العنوان عبر خرائط Google.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: viva0,
-        alt: "تطبيق Viva للتسوق على الجوال",
-        caption: "تطبيق تجارة إلكترونية مدعوم بالذكاء الاصطناعي",
-      },
-    },
+    { type: "media", props: { type: "image", src: local0, alt: "البداية، معاينة ويب محلية للتطبيق", caption: "البداية، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local1, alt: "تسجيل الدخول، معاينة ويب محلية للتطبيق", caption: "تسجيل الدخول، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local2, alt: "إنشاء حساب، معاينة ويب محلية للتطبيق", caption: "إنشاء حساب، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local3, alt: "استعادة كلمة المرور، معاينة ويب محلية للتطبيق", caption: "استعادة كلمة المرور، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },
     {
       type: "list",
       props: {

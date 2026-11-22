@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/youtube-clone/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/youtube-clone/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/youtube-clone/gallery-2.jpg";
 import youtube0 from "../../../assets/images/projects/youtube-clone/youtube-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: youtube0,
+        natural: true,
         alt: "منصة فيديو YouTube Clone",
         caption: "منصة بث فيديو",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "صفحة الفيديو والمقاطع ذات الصلة", caption: "صفحة الفيديو والمقاطع ذات الصلة", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "ملف القناة وشبكة الفيديوهات", caption: "ملف القناة وشبكة الفيديوهات", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "نتائج البحث عن الفيديوهات", caption: "نتائج البحث عن الفيديوهات", natural: true } },
     {
       type: "list",
       props: {

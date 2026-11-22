@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/atlas-erp/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/atlas-erp/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/atlas-erp/gallery-2.jpg";
 import atlas0 from "../../../assets/images/projects/atlas-erp/atlas-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -16,10 +19,14 @@ export default {
       props: {
         type: "image",
         src: atlas0,
-        alt: "لوحة تحكم Atlas ERP",
-        caption: "لوحة تحكم ERP للمؤسسات",
+        natural: true,
+        alt: "إدارة المنتجات، عرض محلي ببيانات تجريبية",
+        caption: "إدارة المنتجات، عرض محلي ببيانات تجريبية",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "إدارة العملاء، عرض محلي ببيانات تجريبية", caption: "إدارة العملاء، عرض محلي ببيانات تجريبية", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "إدارة الموردين، عرض محلي ببيانات تجريبية", caption: "إدارة الموردين، عرض محلي ببيانات تجريبية", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "إدارة المخزون، عرض محلي ببيانات تجريبية", caption: "إدارة المخزون، عرض محلي ببيانات تجريبية", natural: true } },
     {
       type: "list",
       props: {

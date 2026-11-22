@@ -1,4 +1,7 @@
-import viva0 from "../../../assets/images/projects/viva/viva-0.jpg";
+import local0 from "../../../assets/images/projects/viva/local-0.jpg";
+import local1 from "../../../assets/images/projects/viva/local-1.jpg";
+import local2 from "../../../assets/images/projects/viva/local-2.jpg";
+import local3 from "../../../assets/images/projects/viva/local-3.jpg";
 
 import type { ProjectContent } from "../../types";
 
@@ -11,15 +14,10 @@ export default {
   description:
     "A cross-platform eCommerce mobile app built with React Native, Expo, and TypeScript, combining a full shopping experience with a Groq-powered (Llama 3.1) AI shopping assistant.<br/><br/>Features JWT-based authentication, product catalog with infinite scroll, cart, wishlist, checkout, order management, and Google Maps address selection.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: viva0,
-        alt: "Viva mobile shopping app",
-        caption: "AI-powered eCommerce mobile app",
-      },
-    },
+    { type: "media", props: { type: "image", src: local0, alt: "Onboarding, local app web preview", caption: "Onboarding, local app web preview", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local1, alt: "Login, local app web preview", caption: "Login, local app web preview", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local2, alt: "Registration, local app web preview", caption: "Registration, local app web preview", natural: true, portrait: true } },
+    { type: "media", props: { type: "image", src: local3, alt: "Password recovery, local app web preview", caption: "Password recovery, local app web preview", natural: true, portrait: true } },
     {
       type: "list",
       props: {

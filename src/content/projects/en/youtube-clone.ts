@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/youtube-clone/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/youtube-clone/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/youtube-clone/gallery-2.jpg";
 import youtube0 from "../../../assets/images/projects/youtube-clone/youtube-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: youtube0,
+        natural: true,
         alt: "YouTube Clone video platform",
         caption: "Video streaming platform",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "Video detail page and related videos", caption: "Video detail page and related videos", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "Channel profile and video grid", caption: "Channel profile and video grid", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "Video search results", caption: "Video search results", natural: true } },
     {
       type: "list",
       props: {

@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/on-ecommerce/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/on-ecommerce/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/on-ecommerce/gallery-2.jpg";
 import on0 from "../../../assets/images/projects/on-ecommerce/on-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: on0,
+        natural: true,
         alt: "منصة On للتجارة الإلكترونية",
         caption: "منصة تجارة إلكترونية رياضية",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "قسم مجموعة الجري", caption: "قسم مجموعة الجري", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "صفحة كتالوج المنتجات", caption: "صفحة كتالوج المنتجات", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "شبكة المنتجات وتصفية الأقسام", caption: "شبكة المنتجات وتصفية الأقسام", natural: true } },
     {
       type: "list",
       props: {

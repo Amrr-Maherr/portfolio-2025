@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/imdb-stream/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/imdb-stream/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/imdb-stream/gallery-2.jpg";
 import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: imdb0,
+        natural: true,
         alt: "منصة IMDB Stream لاستكشاف الأفلام",
         caption: "منصة استكشاف الأفلام والمسلسلات",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "صفحة استكشاف الأشخاص", caption: "صفحة استكشاف الأشخاص", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "ملف الممثل وإحصاءات أعماله", caption: "ملف الممثل وإحصاءات أعماله", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "تفاصيل الفيلم وفريق العمل وقائمة المشاهدة", caption: "تفاصيل الفيلم وفريق العمل وقائمة المشاهدة", natural: true } },
     {
       type: "list",
       props: {

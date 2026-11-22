@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/atlas-erp/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/atlas-erp/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/atlas-erp/gallery-2.jpg";
 import atlas0 from "../../../assets/images/projects/atlas-erp/atlas-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -16,10 +19,14 @@ export default {
       props: {
         type: "image",
         src: atlas0,
-        alt: "Atlas ERP dashboard",
-        caption: "Enterprise ERP dashboard",
+        natural: true,
+        alt: "Product management, local demo with seed data",
+        caption: "Product management, local demo with seed data",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "Customer management, local demo with seed data", caption: "Customer management, local demo with seed data", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "Supplier management, local demo with seed data", caption: "Supplier management, local demo with seed data", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "Inventory management, local demo with seed data", caption: "Inventory management, local demo with seed data", natural: true } },
     {
       type: "list",
       props: {

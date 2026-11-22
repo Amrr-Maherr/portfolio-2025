@@ -1,3 +1,6 @@
+import gallery3 from "../../../assets/images/projects/imdb-stream/gallery-3.jpg";
+import gallery1 from "../../../assets/images/projects/imdb-stream/gallery-1.jpg";
+import gallery2 from "../../../assets/images/projects/imdb-stream/gallery-2.jpg";
 import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
 
 import type { ProjectContent } from "../../types";
@@ -17,10 +20,14 @@ export default {
       props: {
         type: "image",
         src: imdb0,
+        natural: true,
         alt: "IMDB Stream discovery platform",
         caption: "Movie and TV discovery platform",
       },
     },
+    { type: "media", props: { type: "image", src: gallery1, alt: "People discovery page", caption: "People discovery page", natural: true } },
+    { type: "media", props: { type: "image", src: gallery2, alt: "Actor profile and career statistics", caption: "Actor profile and career statistics", natural: true } },
+    { type: "media", props: { type: "image", src: gallery3, alt: "Movie details, cast and watchlist controls", caption: "Movie details, cast and watchlist controls", natural: true } },
     {
       type: "list",
       props: {
