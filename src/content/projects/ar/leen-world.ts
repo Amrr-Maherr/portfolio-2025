@@ -1,7 +1,9 @@
-import gallery3 from "../../../assets/images/projects/leen-world/gallery-3.jpg";
-import gallery1 from "../../../assets/images/projects/leen-world/gallery-1.jpg";
-import gallery2 from "../../../assets/images/projects/leen-world/gallery-2.jpg";
-import screen from "../../../assets/images/projects/leen-world/screen-0.jpg";
+import fresh0 from "../../../assets/images/projects/leen-world/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/leen-world/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/leen-world/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/leen-world/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/leen-world/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/leen-world/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -12,18 +14,11 @@ export default {
   "live": "https://leenworld.com/",
   "description": "متجر إلكتروني للتمور السعودية الفاخرة والمعمول والهدايا، مع تصنيفات للمنتجات وواجهة عربية.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": screen,
-        natural: true,
-        "alt": "لين",
-        "caption": "متجر تمور وهدايا فاخرة"
-      }
-    },
-    { type: "media", props: { type: "image", src: gallery1, alt: "تصنيفات المتجر", caption: "تصنيفات المتجر", natural: true } },
-    { type: "media", props: { type: "image", src: gallery2, alt: "مجموعة التمور", caption: "مجموعة التمور", natural: true } },
-    { type: "media", props: { type: "image", src: gallery3, alt: "تفاصيل المنتج وخيارات الوزن", caption: "تفاصيل المنتج وخيارات الوزن", natural: true } }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "الصفحة الرئيسية للمتجر",caption: "الصفحة الرئيسية للمتجر",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "أقسام المنتجات",caption: "أقسام المنتجات",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "بطاقات المنتجات المختارة",caption: "بطاقات المنتجات المختارة",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "تفاصيل تمر الصقعي",caption: "تفاصيل تمر الصقعي",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "قوائم معلومات المنتج",caption: "قوائم معلومات المنتج",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "أقسام المنتجات المرتبطة",caption: "أقسام المنتجات المرتبطة",natural:true} }
+]
 } as const satisfies ProjectContent;
