@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/senor/view-1.jpg";
-import view2 from "../../../assets/images/projects/senor/view-2.jpg";
-import view3 from "../../../assets/images/projects/senor/view-3.jpg";
-import view4 from "../../../assets/images/projects/senor/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/senor/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/senor/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/senor/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/senor/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/senor/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/senor/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -16,45 +18,11 @@ export default {
   "videoBorder": false,
   "description": "A pet-storefront theme on Zid with an Arabic right-to-left interface, category navigation, product grids, price filters, and product detail pages. The demo presents food and care products for dogs, cats, and fish, with product images, pricing, stock information, and quantity controls.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "natural": true,
-        "alt": "Homepage",
-        "caption": "Homepage"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "natural": true,
-        "alt": "Product listing",
-        "caption": "Product listing"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "natural": true,
-        "alt": "Product details",
-        "caption": "Product details"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "natural": true,
-        "alt": "Featured products",
-        "caption": "Featured products"
-      }
-    }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "Theme demo homepage",caption: "Theme demo homepage",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Bestselling products",caption: "Bestselling products",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "Promotional category panels",caption: "Promotional category panels",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "Product detail layout",caption: "Product detail layout",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "Product description and payment-information layout",caption: "Product description and payment-information layout",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "Lower catalogue view",caption: "Lower catalogue view",natural:true} }
+]
 } as const satisfies ProjectContent;
