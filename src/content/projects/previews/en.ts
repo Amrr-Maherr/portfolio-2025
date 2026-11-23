@@ -1,3 +1,4 @@
+import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
 import thumb_dashboard from "../../../assets/images/projects/thumbnails/ecommerce-dashboard.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
@@ -145,4 +146,6 @@ export default [
 {"title": "AlNassr Official Store", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "Club merchandise storefront"}
 ,
 {"title": "AlSaif Trading Agencies Store", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "Home appliances and cookware storefront"}
+,
+{"title": "Diriyah Club - Official Website", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "Official club website and news"}
 ] as const satisfies ProjectPreview[];
