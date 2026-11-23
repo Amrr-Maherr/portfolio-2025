@@ -1,3 +1,5 @@
+import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
+import thumb_dashboard from "../../../assets/images/projects/thumbnails/ecommerce-dashboard.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
 import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
@@ -133,7 +135,7 @@ export default [
 {title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"Arabic pet storefront theme on Zid"},
 {title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"Arabic grocery storefront demo on Zid"},
 {title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"School uniforms and supplies storefront"},
-{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:"",description:"Store management dashboard demo"},
+{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:thumb_dashboard,description:"Store management dashboard demo"},
 {title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
 {title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
 {title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}
@@ -141,4 +143,6 @@ export default [
 {title:"Infinity Sports - Sportswear Storefront (Zid)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"Sportswear storefront"}
 ,
 {"title": "AlNassr Official Store", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "Club merchandise storefront"}
+,
+{"title": "AlSaif Trading Agencies Store", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "Home appliances and cookware storefront"}
 ] as const satisfies ProjectPreview[];
