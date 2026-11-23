@@ -128,10 +128,10 @@ export default [
   "description": "Sweet shop storefront and control panel"
 },
 
-{title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"A pet-storefront theme on Zid with an Arabic right-to-left interface, category navigation, product grids, price filters, and produ"},
-{title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"A grocery-style storefront demo on Zid with an Arabic right-to-left interface, category navigation, product listings, filters, pro"},
-{title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"An Arabic e-commerce storefront on Zid for school uniforms, stationery, bags, arts supplies, and computer accessories. The store i"},
-{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:"",description:"A store management dashboard demo built with Next.js (App Router), React and TypeScript. It integrates the RouteMisr API for produ"},
+{title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"Arabic pet storefront theme on Zid"},
+{title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"Arabic grocery storefront demo on Zid"},
+{title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"School uniforms and supplies storefront"},
+{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:"",description:"Store management dashboard demo"},
 {title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
 {title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
 {title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}

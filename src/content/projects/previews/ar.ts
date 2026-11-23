@@ -128,10 +128,10 @@ export default [
   "description": "متجر حلويات ولوحة تحكم"
 },
 
-{title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب واجهة متجر للحيوانات الأليفة على منصة زد، بواجهة عربية من اليمين إلى اليسار، وتنقل بين الأقسام، وشبكات منتجات، وفلاتر أسعار، "},
-{title:"زيادة - متجر بقالة تجريبي (زد)",slug:"zeyada",thumbnail:thumb_zeyada,description:"واجهة متجر تجريبي للبقالة على منصة زد بواجهة عربية من اليمين إلى اليسار، وتنقل بين الأقسام، وقوائم منتجات، وفلاتر، وأقسام للعروض، "},
-{title:"إديوكيشن ماركت - متجر مستلزمات مدرسية (زد)",slug:"education-market",thumbnail:thumb_education_market,description:"واجهة متجر إلكتروني عربية على منصة زد للزي المدرسي والقرطاسية والحقائب وأدوات الفنون وملحقات الكمبيوتر. يتضمن المتجر تصفحاً حسب ال"},
-{title:"لوحة إدارة متجر إلكتروني",slug:"ecommerce-dashboard",thumbnail:"",description:"عرض تجريبي للوحة إدارة متجر مبني باستخدام Next.js وReact وTypeScript. يتصل بواجهة RouteMisr لإدارة المنتجات والأقسام والعلامات الت"},
+{title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب متجر للحيوانات الأليفة على منصة زد"},
+{title:"زيادة - متجر بقالة تجريبي (زد)",slug:"zeyada",thumbnail:thumb_zeyada,description:"متجر بقالة تجريبي على منصة زد"},
+{title:"إديوكيشن ماركت - متجر مستلزمات مدرسية (زد)",slug:"education-market",thumbnail:thumb_education_market,description:"متجر للزي والمستلزمات المدرسية"},
+{title:"لوحة إدارة متجر إلكتروني",slug:"ecommerce-dashboard",thumbnail:"",description:"عرض تجريبي للوحة إدارة متجر"},
 {title:"سُكّرة - متجر مستحضرات تجميل",slug:"sukarah",thumbnail:thumb_sukarah,description:"متجر إلكتروني لسُكّرة، علامة تجميل سعودية تقدم منتجات للحواجب والشفاه ومجموعات مختارة."},
 {title:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)"},
 {title:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)"}
