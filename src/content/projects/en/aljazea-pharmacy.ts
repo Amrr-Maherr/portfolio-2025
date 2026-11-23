@@ -1,7 +1,9 @@
-import gallery3 from "../../../assets/images/projects/aljazea-pharmacy/gallery-3.jpg";
-import gallery1 from "../../../assets/images/projects/aljazea-pharmacy/gallery-1.jpg";
-import gallery2 from "../../../assets/images/projects/aljazea-pharmacy/gallery-2.jpg";
-import screen from "../../../assets/images/projects/aljazea-pharmacy/screen-0.jpg";
+import fresh0 from "../../../assets/images/projects/aljazea-pharmacy/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/aljazea-pharmacy/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/aljazea-pharmacy/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/aljazea-pharmacy/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/aljazea-pharmacy/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/aljazea-pharmacy/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -12,18 +14,11 @@ export default {
   "live": "https://aljazeaonline.com/",
   "description": "An online pharmacy storefront with product search, category navigation, promotional collections, and shopping cart access.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": screen,
-        natural: true,
-        "alt": "Al Jazea Pharmacy",
-        "caption": "Online pharmacy storefront"
-      }
-    },
-    { type: "media", props: { type: "image", src: gallery1, alt: "Product catalog", caption: "Product catalog", natural: true } },
-    { type: "media", props: { type: "image", src: gallery2, alt: "Product detail interface", caption: "Product detail interface", natural: true } },
-    { type: "media", props: { type: "image", src: gallery3, alt: "Featured products and offers", caption: "Featured products and offers", natural: true } }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "Storefront homepage",caption: "Storefront homepage",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Bestselling products",caption: "Bestselling products",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "Promotional product banner",caption: "Promotional product banner",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "Product detail layout",caption: "Product detail layout",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "Payment-information and service panel",caption: "Payment-information and service panel",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "Product catalogue",caption: "Product catalogue",natural:true} }
+]
 } as const satisfies ProjectContent;

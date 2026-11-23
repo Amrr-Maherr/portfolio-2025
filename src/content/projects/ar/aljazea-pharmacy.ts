@@ -1,7 +1,9 @@
-import gallery3 from "../../../assets/images/projects/aljazea-pharmacy/gallery-3.jpg";
-import gallery1 from "../../../assets/images/projects/aljazea-pharmacy/gallery-1.jpg";
-import gallery2 from "../../../assets/images/projects/aljazea-pharmacy/gallery-2.jpg";
-import screen from "../../../assets/images/projects/aljazea-pharmacy/screen-0.jpg";
+import fresh0 from "../../../assets/images/projects/aljazea-pharmacy/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/aljazea-pharmacy/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/aljazea-pharmacy/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/aljazea-pharmacy/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/aljazea-pharmacy/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/aljazea-pharmacy/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -12,18 +14,11 @@ export default {
   "live": "https://aljazeaonline.com/",
   "description": "واجهة متجر إلكتروني لصيدلية، تضم البحث عن المنتجات وتصفح التصنيفات والعروض والوصول إلى سلة التسوق.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": screen,
-        natural: true,
-        "alt": "صيدلية الجازع",
-        "caption": "متجر صيدلية إلكتروني"
-      }
-    },
-    { type: "media", props: { type: "image", src: gallery1, alt: "كتالوج المنتجات", caption: "كتالوج المنتجات", natural: true } },
-    { type: "media", props: { type: "image", src: gallery2, alt: "واجهة تفاصيل المنتج", caption: "واجهة تفاصيل المنتج", natural: true } },
-    { type: "media", props: { type: "image", src: gallery3, alt: "منتجات وعروض مختارة", caption: "منتجات وعروض مختارة", natural: true } }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "الصفحة الرئيسية للمتجر",caption: "الصفحة الرئيسية للمتجر",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "المنتجات الأكثر مبيعاً",caption: "المنتجات الأكثر مبيعاً",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "بانر المنتجات الترويجي",caption: "بانر المنتجات الترويجي",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "واجهة تفاصيل المنتج",caption: "واجهة تفاصيل المنتج",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "لوحة معلومات الدفع والخدمات",caption: "لوحة معلومات الدفع والخدمات",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "كتالوج المنتجات",caption: "كتالوج المنتجات",natural:true} }
+]
 } as const satisfies ProjectContent;
