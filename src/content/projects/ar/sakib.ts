@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/sakib/view-1.jpg";
-import view2 from "../../../assets/images/projects/sakib/view-2.jpg";
-import view3 from "../../../assets/images/projects/sakib/view-3.jpg";
-import view4 from "../../../assets/images/projects/sakib/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/sakib/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/sakib/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/sakib/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/sakib/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/sakib/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/sakib/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -14,46 +16,12 @@ export default {
   "videoBorder": false,
   "description": "واجهة متجر عربية لعلامة عطور سكب على منصة زد، تعرض العلامة ومجموعات العطور وواجهات التسوق للمنتجات.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "natural": true,
-        "alt": "الصفحة الرئيسية",
-        "caption": "الصفحة الرئيسية"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "natural": true,
-        "alt": "مجموعة العطور",
-        "caption": "مجموعة العطور"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "natural": true,
-        "alt": "تفاصيل المنتج",
-        "caption": "تفاصيل المنتج"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "natural": true,
-        "alt": "آراء العملاء",
-        "caption": "آراء العملاء"
-      }
-    }
-  ],
+{ type: "media", props: {type: "image",src: fresh0,alt: "بانر الصفحة الرئيسية",caption: "بانر الصفحة الرئيسية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "بطاقات العطور",caption: "بطاقات العطور",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "قسم آراء العملاء",caption: "قسم آراء العملاء",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "كتالوج المنتجات",caption: "كتالوج المنتجات",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "تفاصيل عطر Mirage Musk",caption: "تفاصيل عطر Mirage Musk",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "تفاصيل عطر Leather Noir",caption: "تفاصيل عطر Leather Noir",natural:true} }
+],
   "live": "https://sakbperfume.com/"
 } as const satisfies ProjectContent;

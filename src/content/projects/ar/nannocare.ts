@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/nannocare/view-1.jpg";
-import view2 from "../../../assets/images/projects/nannocare/view-2.jpg";
-import view3 from "../../../assets/images/projects/nannocare/view-3.jpg";
-import view4 from "../../../assets/images/projects/nannocare/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/nannocare/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/nannocare/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/nannocare/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/nannocare/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/nannocare/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/nannocare/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -16,47 +18,7 @@ export default {
   "videoBorder": false,
   "description": "موقع تجارة إلكترونية لمنتجات العناية الشخصية من Nannocare. يجمع بين مجموعات المنتجات وصفحات تفاصيلها ومعلومات العلامة والتقنية وعناصر التسوق ضمن واجهة تركز على المنتجات.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "natural": true,
-        "alt": "الصفحة الرئيسية",
-        "caption": "الصفحة الرئيسية"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "natural": true,
-        "alt": "مجموعة المنتجات",
-        "caption": "مجموعة المنتجات"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "natural": true,
-        "alt": "تفاصيل المنتج",
-        "caption": "تفاصيل المنتج"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "natural": true,
-        "alt": "عرض تقنية العلامة التجارية",
-        "caption": "عرض تقنية العلامة التجارية"
-      }
-    },
-    {
+{
       "type": "list",
       "props": {
         "title": "أهم المميزات",
@@ -68,7 +30,13 @@ export default {
           "تنقل في المتجر يركز على المنتجات"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "بانر الفيديو بالصفحة الرئيسية",caption: "بانر الفيديو بالصفحة الرئيسية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "قسم معلومات المنتج",caption: "قسم معلومات المنتج",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "واجهة معلومات التقنية",caption: "واجهة معلومات التقنية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "كتالوج المنتجات",caption: "كتالوج المنتجات",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "تفاصيل المنتج ومعرض الصور",caption: "تفاصيل المنتج ومعرض الصور",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "قسم معلومات المنتج السفلي",caption: "قسم معلومات المنتج السفلي",natural:true} }
+],
   "live": "https://nannocare.com/"
 } as const satisfies ProjectContent;
