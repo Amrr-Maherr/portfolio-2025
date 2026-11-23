@@ -1,3 +1,4 @@
+import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
 import thumb_infinity_electronics from "../../../assets/images/projects/thumbnails/infinity-electronics.jpg";
 import thumb_sukarah from "../../../assets/images/projects/thumbnails/sukarah.jpg";
@@ -135,4 +136,6 @@ export default [
 {title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
 {title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
 {title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}
+,
+{title:"Infinity Sports - Sportswear Storefront (Zid)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"Sportswear storefront"}
 ] as const satisfies ProjectPreview[];

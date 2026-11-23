@@ -1,6 +1,6 @@
 import type { Locale } from "../../i18n/types";
 
-export const projectIds = ["inin-sport", "leen-world", "maden-florist", "aljazea-pharmacy", "on-ecommerce", "imdb-stream", "atlas-erp", "viva", "youtube-clone", "nexton-ecommerce", "reeq-al-nahl", "sakib", "nannocare", "beans-united", "foushi-events", "yumauth", "charlottesweets", "senor", "zeyada", "education-market", "ecommerce-dashboard", "sukarah", "infinity-electronics", "infinity-beauty"];
+export const projectIds = ["inin-sport", "leen-world", "maden-florist", "aljazea-pharmacy", "on-ecommerce", "imdb-stream", "atlas-erp", "viva", "youtube-clone", "nexton-ecommerce", "reeq-al-nahl", "sakib", "nannocare", "beans-united", "foushi-events", "yumauth", "charlottesweets", "senor", "zeyada", "education-market", "ecommerce-dashboard", "sukarah", "infinity-electronics", "infinity-beauty", "infinity-sports"];
 
 function simplifyModules(glob: Record<string, any>) {
   const result: Record<string, any> = {};
