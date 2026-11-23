@@ -148,7 +148,7 @@ onMounted(loadPreviews);
 
     @include mixins.mq("lg") {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      grid-column: 1 / span 12;
+      grid-column: 3 / span 8;
     }
 
     @include mixins.mq("xl") {
