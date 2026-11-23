@@ -1,7 +1,9 @@
-import gallery3 from "../../../assets/images/projects/imdb-stream/gallery-3.jpg";
-import gallery1 from "../../../assets/images/projects/imdb-stream/gallery-1.jpg";
-import gallery2 from "../../../assets/images/projects/imdb-stream/gallery-2.jpg";
-import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
+import fresh0 from "../../../assets/images/projects/imdb-stream/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/imdb-stream/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/imdb-stream/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/imdb-stream/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/imdb-stream/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/imdb-stream/six-6.jpg";
 
 import type { ProjectContent } from "../../types";
 
@@ -15,20 +17,7 @@ export default {
   description:
     "A bilingual English and Arabic movie and TV discovery app built with Next.js and TypeScript. It includes searchable catalogues, movie and person detail pages, Firebase sign-in, favourites and watchlists, and an AI recommendation assistant. Its Arabic interface supports right-to-left layouts.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: imdb0,
-        natural: true,
-        alt: "IMDB Stream discovery platform",
-        caption: "Movie and TV discovery platform",
-      },
-    },
-    { type: "media", props: { type: "image", src: gallery1, alt: "People discovery page", caption: "People discovery page", natural: true } },
-    { type: "media", props: { type: "image", src: gallery2, alt: "Actor profile and career statistics", caption: "Actor profile and career statistics", natural: true } },
-    { type: "media", props: { type: "image", src: gallery3, alt: "Movie details, cast and watchlist controls", caption: "Movie details, cast and watchlist controls", natural: true } },
-    {
+{
       type: "list",
       props: {
         title: "Key Features",
@@ -42,12 +31,18 @@ export default {
         ],
       },
     },
-    {
+{
       type: "text",
       props: {
         title: "Technical Highlights",
         text: "Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 with shadcn/ui. Uses Firebase Auth and Firestore, next-intl for internationalisation, and the Groq API for AI-powered recommendations.",
       },
     },
-  ],
+{ type: "media", props: {type: "image",src: fresh0,alt: "Popular movies",caption: "Popular movies",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Featured titles grid",caption: "Featured titles grid",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "Movie detail hero",caption: "Movie detail hero",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "Storyline and cast",caption: "Storyline and cast",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "Videos and photo sections",caption: "Videos and photo sections",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "People discovery",caption: "People discovery",natural:true} }
+],
 } as const satisfies ProjectContent;

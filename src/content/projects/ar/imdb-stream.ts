@@ -1,7 +1,9 @@
-import gallery3 from "../../../assets/images/projects/imdb-stream/gallery-3.jpg";
-import gallery1 from "../../../assets/images/projects/imdb-stream/gallery-1.jpg";
-import gallery2 from "../../../assets/images/projects/imdb-stream/gallery-2.jpg";
-import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
+import fresh0 from "../../../assets/images/projects/imdb-stream/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/imdb-stream/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/imdb-stream/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/imdb-stream/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/imdb-stream/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/imdb-stream/six-6.jpg";
 
 import type { ProjectContent } from "../../types";
 
@@ -15,20 +17,7 @@ export default {
   description:
     "تطبيق لاستكشاف الأفلام والمسلسلات بالعربية والإنجليزية مبني باستخدام Next.js وTypeScript. يتضمن كتالوجات قابلة للبحث وصفحات تفاصيل الأعمال والأشخاص وتسجيل دخول عبر Firebase وقوائم المفضلة والمشاهدة ومساعد توصيات ذكي، مع دعم تخطيط من اليمين إلى اليسار في الواجهة العربية.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: imdb0,
-        natural: true,
-        alt: "منصة IMDB Stream لاستكشاف الأفلام",
-        caption: "منصة استكشاف الأفلام والمسلسلات",
-      },
-    },
-    { type: "media", props: { type: "image", src: gallery1, alt: "صفحة استكشاف الأشخاص", caption: "صفحة استكشاف الأشخاص", natural: true } },
-    { type: "media", props: { type: "image", src: gallery2, alt: "ملف الممثل وإحصاءات أعماله", caption: "ملف الممثل وإحصاءات أعماله", natural: true } },
-    { type: "media", props: { type: "image", src: gallery3, alt: "تفاصيل الفيلم وفريق العمل وقائمة المشاهدة", caption: "تفاصيل الفيلم وفريق العمل وقائمة المشاهدة", natural: true } },
-    {
+{
       type: "list",
       props: {
         title: "الميزات الرئيسية",
@@ -42,12 +31,18 @@ export default {
         ],
       },
     },
-    {
+{
       type: "text",
       props: {
         title: "أبرز النقاط التقنية",
         text: "مبني بـNext.js 16 وReact 19 وTypeScript وTailwind CSS v4 مع shadcn/ui. يستخدم Firebase Auth وFirestore، وnext-intl للتعدد اللغوي، وGroq API للتوصيات الذكية.",
       },
     },
-  ],
+{ type: "media", props: {type: "image",src: fresh0,alt: "الأفلام الشائعة",caption: "الأفلام الشائعة",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "شبكة الأعمال المختارة",caption: "شبكة الأعمال المختارة",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "بانر تفاصيل الفيلم",caption: "بانر تفاصيل الفيلم",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "القصة وطاقم التمثيل",caption: "القصة وطاقم التمثيل",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "أقسام الفيديو والصور",caption: "أقسام الفيديو والصور",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "استكشاف الأشخاص",caption: "استكشاف الأشخاص",natural:true} }
+],
 } as const satisfies ProjectContent;
