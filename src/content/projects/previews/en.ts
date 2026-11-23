@@ -1,3 +1,4 @@
+import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
 import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
 import thumb_infinity_electronics from "../../../assets/images/projects/thumbnails/infinity-electronics.jpg";
@@ -138,4 +139,6 @@ export default [
 {title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}
 ,
 {title:"Infinity Sports - Sportswear Storefront (Zid)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"Sportswear storefront"}
+,
+{"title": "AlNassr Official Store", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "Club merchandise storefront"}
 ] as const satisfies ProjectPreview[];

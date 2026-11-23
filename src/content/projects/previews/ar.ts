@@ -1,3 +1,4 @@
+import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
 import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
 import thumb_infinity_electronics from "../../../assets/images/projects/thumbnails/infinity-electronics.jpg";
@@ -138,4 +139,6 @@ export default [
 {title:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)"}
 ,
 {title:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)"}
+,
+{"title": "المتجر الرسمي لنادي النصر", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "متجر منتجات نادي النصر"}
 ] as const satisfies ProjectPreview[];
