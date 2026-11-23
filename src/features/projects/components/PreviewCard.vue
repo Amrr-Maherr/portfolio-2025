@@ -55,7 +55,7 @@ onUnmounted(() => {
     data-hoversound="hover"
     v-if="props.preview"
   >
-    <div class="preview-card-top" ref="wrapperRef">
+    <div v-if="props.preview.thumbnail" class="preview-card-top" ref="wrapperRef">
       <div class="preview-card-image-wrapper">
         <div class="preview-card-image-container">
           <img v-if="props.preview.thumbnail" :src="props.preview.thumbnail" :alt="props.preview.title" class="preview-card-image" ref="imageRef" />

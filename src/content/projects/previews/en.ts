@@ -1,3 +1,9 @@
+import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
+import thumb_infinity_electronics from "../../../assets/images/projects/thumbnails/infinity-electronics.jpg";
+import thumb_sukarah from "../../../assets/images/projects/thumbnails/sukarah.jpg";
+import thumb_senor from "../../../assets/images/projects/thumbnails/senor.jpg";
+import thumb_zeyada from "../../../assets/images/projects/thumbnails/zeyada.jpg";
+import thumb_education_market from "../../../assets/images/projects/thumbnails/education-market.jpg";
 import newThumb0 from "../../../assets/images/projects/thumbnails/nexton-ecommerce.jpg";
 import newThumb1 from "../../../assets/images/projects/thumbnails/reeq-al-nahl.jpg";
 import newThumb2 from "../../../assets/images/projects/thumbnails/sakib.jpg";
@@ -121,4 +127,12 @@ export default [
   "thumbnail": newThumb7,
   "description": "Sweet shop storefront and control panel"
 },
+
+{title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"A pet-storefront theme on Zid with an Arabic right-to-left interface, category navigation, product grids, price filters, and produ"},
+{title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"A grocery-style storefront demo on Zid with an Arabic right-to-left interface, category navigation, product listings, filters, pro"},
+{title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"An Arabic e-commerce storefront on Zid for school uniforms, stationery, bags, arts supplies, and computer accessories. The store i"},
+{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:"",description:"A store management dashboard demo built with Next.js (App Router), React and TypeScript. It integrates the RouteMisr API for produ"},
+{title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
+{title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
+{title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}
 ] as const satisfies ProjectPreview[];
