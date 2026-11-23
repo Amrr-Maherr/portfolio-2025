@@ -1,6 +1,5 @@
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
-import thumb_dashboard from "../../../assets/images/projects/thumbnails/ecommerce-dashboard.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
 import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
@@ -30,6 +29,22 @@ import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب متجر للحيوانات الأليفة على منصة زد"},
+{title:"زيادة - متجر بقالة تجريبي (زد)",slug:"zeyada",thumbnail:thumb_zeyada,description:"متجر بقالة تجريبي على منصة زد"},
+{title:"إديوكيشن ماركت - متجر مستلزمات مدرسية (زد)",slug:"education-market",thumbnail:thumb_education_market,description:"متجر للزي والمستلزمات المدرسية"},
+{title:"سُكّرة - متجر مستحضرات تجميل",slug:"sukarah",thumbnail:thumb_sukarah,description:"متجر إلكتروني لسُكّرة، علامة تجميل سعودية تقدم منتجات للحواجب والشفاه ومجموعات مختارة."},
+{title:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)"},
+{title:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)"},
+{title:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)"},
+{"title": "المتجر الرسمي لنادي النصر", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "متجر منتجات نادي النصر"},
+{"title": "متجر السيف للتوكيلات التجارية", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "متجر الأجهزة المنزلية وأدوات الطهي"},
+{"title": "نادي الدرعية - الموقع الرسمي", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "الموقع الرسمي وأخبار النادي"},
+{
+    title: "Atlas ERP",
+    slug: "atlas-erp",
+    thumbnail: thumbnailAtlas,
+    description: "لوحة تحكم ERP للمؤسسات",
+  },
 {
   "title": "إن إن سبورت",
   "slug": "inin-sport",
@@ -54,31 +69,25 @@ export default [
     "thumbnail": thumb2,
     "description": "متجر صيدلية إلكتروني"
 },
-  {
+{
     title: "On - Athletic eCommerce",
     slug: "on-ecommerce",
     thumbnail: thumbnailOn,
     description: "منصة تجارة إلكترونية إنتاجية",
   },
-  {
+{
     title: "IMDB Stream",
     slug: "imdb-stream",
     thumbnail: thumbnailImdb,
     description: "منصة استكشاف أفلام ومسلسلات ثنائية اللغة",
   },
-  {
-    title: "Atlas ERP",
-    slug: "atlas-erp",
-    thumbnail: thumbnailAtlas,
-    description: "لوحة تحكم ERP للمؤسسات",
-  },
-  {
+{
     title: "Viva - تطبيق تسوق ذكي",
     slug: "viva",
     thumbnail: thumbnailViva,
     description: "تطبيق تجارة إلكترونية مدعوم بالذكاء الاصطناعي",
   },
-  {
+{
     title: "YouTube Clone",
     slug: "youtube-clone",
     thumbnail: thumbnailYoutube,
@@ -131,21 +140,5 @@ export default [
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "متجر حلويات ولوحة تحكم"
-},
-
-{title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب متجر للحيوانات الأليفة على منصة زد"},
-{title:"زيادة - متجر بقالة تجريبي (زد)",slug:"zeyada",thumbnail:thumb_zeyada,description:"متجر بقالة تجريبي على منصة زد"},
-{title:"إديوكيشن ماركت - متجر مستلزمات مدرسية (زد)",slug:"education-market",thumbnail:thumb_education_market,description:"متجر للزي والمستلزمات المدرسية"},
-{title:"لوحة إدارة متجر إلكتروني",slug:"ecommerce-dashboard",thumbnail:thumb_dashboard,description:"عرض تجريبي للوحة إدارة متجر"},
-{title:"سُكّرة - متجر مستحضرات تجميل",slug:"sukarah",thumbnail:thumb_sukarah,description:"متجر إلكتروني لسُكّرة، علامة تجميل سعودية تقدم منتجات للحواجب والشفاه ومجموعات مختارة."},
-{title:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)"},
-{title:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"إنفينيتي بيوتي - متجر تجميل وأزياء (زد)"}
-,
-{title:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"إنفينيتي سبورتس - متجر ملابس رياضية (زد)"}
-,
-{"title": "المتجر الرسمي لنادي النصر", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "متجر منتجات نادي النصر"}
-,
-{"title": "متجر السيف للتوكيلات التجارية", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "متجر الأجهزة المنزلية وأدوات الطهي"}
-,
-{"title": "نادي الدرعية - الموقع الرسمي", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "الموقع الرسمي وأخبار النادي"}
+}
 ] as const satisfies ProjectPreview[];

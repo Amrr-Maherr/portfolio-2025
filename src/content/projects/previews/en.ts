@@ -1,6 +1,5 @@
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
-import thumb_dashboard from "../../../assets/images/projects/thumbnails/ecommerce-dashboard.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
 import thumb_infinity_sports from "../../../assets/images/projects/thumbnails/infinity-sports.jpg";
 import thumb_infinity_beauty from "../../../assets/images/projects/thumbnails/infinity-beauty.jpg";
@@ -30,6 +29,22 @@ import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"Arabic pet storefront theme on Zid"},
+{title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"Arabic grocery storefront demo on Zid"},
+{title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"School uniforms and supplies storefront"},
+{title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
+{title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
+{title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"},
+{title:"Infinity Sports - Sportswear Storefront (Zid)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"Sportswear storefront"},
+{"title": "AlNassr Official Store", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "Club merchandise storefront"},
+{"title": "AlSaif Trading Agencies Store", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "Home appliances and cookware storefront"},
+{"title": "Diriyah Club - Official Website", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "Official club website and news"},
+{
+    title: "Atlas ERP",
+    slug: "atlas-erp",
+    thumbnail: thumbnailAtlas,
+    description: "Enterprise ERP dashboard",
+  },
 {
   "title": "ININ Sport",
   "slug": "inin-sport",
@@ -54,31 +69,25 @@ export default [
     "thumbnail": thumb2,
     "description": "Online pharmacy storefront"
 },
-  {
+{
     title: "On - Athletic eCommerce",
     slug: "on-ecommerce",
     thumbnail: thumbnailOn,
     description: "Production-grade eCommerce platform",
   },
-  {
+{
     title: "IMDB Stream",
     slug: "imdb-stream",
     thumbnail: thumbnailImdb,
     description: "Bilingual movie & TV discovery platform",
   },
-  {
-    title: "Atlas ERP",
-    slug: "atlas-erp",
-    thumbnail: thumbnailAtlas,
-    description: "Enterprise ERP dashboard",
-  },
-  {
+{
     title: "Viva - AI Shopping App",
     slug: "viva",
     thumbnail: thumbnailViva,
     description: "AI-powered eCommerce mobile app",
   },
-  {
+{
     title: "YouTube Clone",
     slug: "youtube-clone",
     thumbnail: thumbnailYoutube,
@@ -131,21 +140,5 @@ export default [
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "Sweet shop storefront and control panel"
-},
-
-{title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"Arabic pet storefront theme on Zid"},
-{title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"Arabic grocery storefront demo on Zid"},
-{title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"School uniforms and supplies storefront"},
-{title:"E-commerce Dashboard",slug:"ecommerce-dashboard",thumbnail:thumb_dashboard,description:"Store management dashboard demo"},
-{title:"Sukarah - Cosmetics Online Store",slug:"sukarah",thumbnail:thumb_sukarah,description:"An online store for Sukarah, a Saudi cosmetics brand offering brow and lip products and curated bundles."},
-{title:"Infinity Electronics - Electronics Storefront (Zid)",slug:"infinity-electronics",thumbnail:thumb_infinity_electronics,description:"Electronics storefront"},
-{title:"Infinity Beauty - Beauty and Fashion Storefront (Zid)",slug:"infinity-beauty",thumbnail:thumb_infinity_beauty,description:"Beauty and fashion storefront"}
-,
-{title:"Infinity Sports - Sportswear Storefront (Zid)",slug:"infinity-sports",thumbnail:thumb_infinity_sports,description:"Sportswear storefront"}
-,
-{"title": "AlNassr Official Store", "slug": "alnassr", "thumbnail": thumb_alnassr, "description": "Club merchandise storefront"}
-,
-{"title": "AlSaif Trading Agencies Store", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "Home appliances and cookware storefront"}
-,
-{"title": "Diriyah Club - Official Website", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "Official club website and news"}
+}
 ] as const satisfies ProjectPreview[];
