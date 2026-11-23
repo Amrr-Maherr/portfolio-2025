@@ -1,3 +1,5 @@
+import fresh0 from "../../../assets/images/projects/nexton-ecommerce/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/nexton-ecommerce/six-2.jpg";
 import view1 from "../../../assets/images/projects/nexton-ecommerce/view-1.jpg";
 import view2 from "../../../assets/images/projects/nexton-ecommerce/view-2.jpg";
 import view3 from "../../../assets/images/projects/nexton-ecommerce/view-3.jpg";
@@ -20,7 +22,7 @@ export default {
   "videoBorder": false,
   "description": "متجر إلكتروني حديث مبني بـNext.js 15 وReact 19 من تصميم Figma مخصص، مع صفحات منتجات ديناميكية وسلة تسوق ودفع تفاعلي ومدفوعات عبر PayPal.",
   "components": [
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -30,7 +32,7 @@ export default {
         "caption": "الصفحة الرئيسية"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -40,7 +42,7 @@ export default {
         "caption": "تفاصيل المنتج"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -50,7 +52,7 @@ export default {
         "caption": "الفئات والمنتجات المقترحة"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -60,7 +62,7 @@ export default {
         "caption": "تسجيل الدخول"
       }
     },
-    {
+{
       "type": "list",
       "props": {
         "title": "أهم المميزات",
@@ -72,8 +74,10 @@ export default {
           "تكامل بوابة دفع PayPal"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "بطاقات المنتجات الأكثر مبيعًا",caption: "بطاقات المنتجات الأكثر مبيعًا",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "حملة المجموعة الشتوية",caption: "حملة المجموعة الشتوية",natural:true} }
+],
   "live": "https://nexton-e-commerce.vercel.app/",
   "source": "https://github.com/Amrr-Maherr/nexton-e-commerce"
 } as const satisfies ProjectContent;

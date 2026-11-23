@@ -1,3 +1,5 @@
+import fresh0 from "../../../assets/images/projects/nexton-ecommerce/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/nexton-ecommerce/six-2.jpg";
 import view1 from "../../../assets/images/projects/nexton-ecommerce/view-1.jpg";
 import view2 from "../../../assets/images/projects/nexton-ecommerce/view-2.jpg";
 import view3 from "../../../assets/images/projects/nexton-ecommerce/view-3.jpg";
@@ -20,7 +22,7 @@ export default {
   "videoBorder": false,
   "description": "A modern front-end e-commerce application built with Next.js 15 and React 19 from a custom Figma design, featuring dynamic product pages, an interactive cart and checkout flow, and PayPal payments.",
   "components": [
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -30,7 +32,7 @@ export default {
         "caption": "Homepage"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -40,7 +42,7 @@ export default {
         "caption": "Product details"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -50,7 +52,7 @@ export default {
         "caption": "Categories and recommendations"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -60,7 +62,7 @@ export default {
         "caption": "Login"
       }
     },
-    {
+{
       "type": "list",
       "props": {
         "title": "Key Features",
@@ -72,8 +74,10 @@ export default {
           "PayPal payment gateway integration"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "Best sellers product cards",caption: "Best sellers product cards",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Winter collection campaign",caption: "Winter collection campaign",natural:true} }
+],
   "live": "https://nexton-e-commerce.vercel.app/",
   "source": "https://github.com/Amrr-Maherr/nexton-e-commerce"
 } as const satisfies ProjectContent;

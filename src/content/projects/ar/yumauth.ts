@@ -1,3 +1,5 @@
+import fresh0 from "../../../assets/images/projects/yumauth/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/yumauth/six-2.jpg";
 import view1 from "../../../assets/images/projects/yumauth/view-1.jpg";
 import view2 from "../../../assets/images/projects/yumauth/view-2.jpg";
 import view3 from "../../../assets/images/projects/yumauth/view-3.jpg";
@@ -15,9 +17,9 @@ export default {
     "auth"
   ],
   "videoBorder": false,
-  "description": "تطبيق لتصفح الوصفات مبني بـReact وVite، مع مسارات محمية بتسجيل الدخول للبحث وعرض تفاصيل الوصفات، باستخدام React Query وTailwind CSS.",
+  "description": "تطبيق لتصفح الوصفات مبني بـReact وVite، مع البحث وصفحات تفاصيل الوصفات وشاشات تسجيل الدخول وإنشاء الحساب، باستخدام React Query وTailwind CSS.",
   "components": [
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -27,7 +29,7 @@ export default {
         "caption": "الصفحة الرئيسية، معاينة محلية للتطبيق"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -37,7 +39,7 @@ export default {
         "caption": "تفاصيل الوصفة، معاينة محلية للتطبيق"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -47,7 +49,7 @@ export default {
         "caption": "تسجيل الدخول، معاينة محلية للتطبيق"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -57,17 +59,19 @@ export default {
         "caption": "إنشاء حساب، معاينة محلية للتطبيق"
       }
     },
-    {
+{
       "type": "list",
       "props": {
         "title": "أهم المميزات",
         "items": [
           "تصفح الوصفات والبحث وعرض التفاصيل",
-          "مسارات محمية بتسجيل الدخول",
+          "شاشات تسجيل الدخول وإنشاء الحساب",
           "تدفق تسجيل دخول وإنشاء حساب بسيط"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "نتائج البحث، لقطة من مستودع المشروع",caption: "نتائج البحث، لقطة من مستودع المشروع",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "كتالوج الوصفات، لقطة من مستودع المشروع",caption: "كتالوج الوصفات، لقطة من مستودع المشروع",natural:true} }
+],
   "source": "https://github.com/Amrr-Maherr/YumAuth"
 } as const satisfies ProjectContent;

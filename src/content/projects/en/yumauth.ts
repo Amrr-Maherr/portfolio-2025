@@ -1,3 +1,5 @@
+import fresh0 from "../../../assets/images/projects/yumauth/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/yumauth/six-2.jpg";
 import view1 from "../../../assets/images/projects/yumauth/view-1.jpg";
 import view2 from "../../../assets/images/projects/yumauth/view-2.jpg";
 import view3 from "../../../assets/images/projects/yumauth/view-3.jpg";
@@ -15,9 +17,9 @@ export default {
     "auth"
   ],
   "videoBorder": false,
-  "description": "A recipe browsing app built with React and Vite, with real authentication-protected routes for searching and viewing recipe details, using React Query and Tailwind CSS.",
+  "description": "A recipe browsing app built with React and Vite, with search, recipe detail pages, and sign-in and registration screens, using React Query and Tailwind CSS.",
   "components": [
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -27,7 +29,7 @@ export default {
         "caption": "Homepage, local app preview"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -37,7 +39,7 @@ export default {
         "caption": "Recipe details, local app preview"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -47,7 +49,7 @@ export default {
         "caption": "Login, local app preview"
       }
     },
-    {
+{
       "type": "media",
       "props": {
         "type": "image",
@@ -57,17 +59,19 @@ export default {
         "caption": "Registration, local app preview"
       }
     },
-    {
+{
       "type": "list",
       "props": {
         "title": "Key Features",
         "items": [
           "Browse, search, and view detailed recipes",
-          "Authentication-gated protected routes",
+          "Sign-in and registration screens",
           "Clean sign-in/sign-up flow"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "Search results, screenshot supplied in source repository",caption: "Search results, screenshot supplied in source repository",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Recipe catalogue, screenshot supplied in source repository",caption: "Recipe catalogue, screenshot supplied in source repository",natural:true} }
+],
   "source": "https://github.com/Amrr-Maherr/YumAuth"
 } as const satisfies ProjectContent;

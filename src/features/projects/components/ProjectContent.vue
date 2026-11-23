@@ -51,6 +51,13 @@ onMounted(loadPreviews);
         <ProjectComponent :type="component.type" :props="component.props" :index="index" />
       </div>
     </div>
+    <div v-if="content.live || content.source" class="grid project-content-source-grid">
+      <div class="project-content-source-links">
+        <h3>{{ locale === 'ar' ? 'روابط المشروع' : 'Project links' }}</h3>
+        <a v-if="content.live" :href="content.live" target="_blank" rel="noopener noreferrer">{{ content.live }}</a>
+        <a v-if="content.source && content.source !== content.live" :href="content.source" target="_blank" rel="noopener noreferrer">{{ content.source }}</a>
+      </div>
+    </div>
     <div class="grid project-content-next-project-grid">
       <Link
         v-if="nextProject"
@@ -69,6 +76,20 @@ onMounted(loadPreviews);
 <style scoped lang="scss">
 .project-content {
   color: var(--color-text-400);
+
+  &-source-links {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 900px);
+    padding: 1.5rem;
+    border: 1px solid currentColor;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    overflow-wrap: anywhere;
+    a { text-decoration: underline; }
+  }
 
   &-grid {
     row-gap: var(--space-sm);
@@ -93,7 +114,21 @@ onMounted(loadPreviews);
       grid-column: 5 / 9;
     }
 
-    &-grid {
+    &-source-links {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 900px);
+    padding: 1.5rem;
+    border: 1px solid currentColor;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    overflow-wrap: anywhere;
+    a { text-decoration: underline; }
+  }
+
+  &-grid {
       padding: 0 var(--space-outer);
       padding-top: var(--space-xl);
       padding-bottom: var(--space-xxxl);
