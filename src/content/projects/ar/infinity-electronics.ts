@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/infinity-electronics/view-1.jpg";
-import view2 from "../../../assets/images/projects/infinity-electronics/view-2.jpg";
-import view3 from "../../../assets/images/projects/infinity-electronics/view-3.jpg";
-import view4 from "../../../assets/images/projects/infinity-electronics/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/infinity-electronics/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/infinity-electronics/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/infinity-electronics/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/infinity-electronics/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/infinity-electronics/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/infinity-electronics/six-6.jpg";
 import type { ProjectContent } from "../../types";
 export default {
   "title": "إنفينيتي إلكترونيكس - متجر إلكترونيات (زد)",
@@ -14,45 +16,11 @@ export default {
   "description": "واجهة متجر إلكترونيات عربية من اليمين إلى اليسار على منصة زد، مع تنقل بين الأقسام، وأقسام ترويجية، وقوائم منتجات وفلاتر للأسعار. تعرض صفحات المنتجات معارض صور وأوصافاً وأسعاراً وعناصر تحكم في الكمية وخيارات السلة والمفضلة.",
   "live": "https://p8bg4g.zid.store/",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "alt": "الصفحة الرئيسية",
-        "caption": "الصفحة الرئيسية",
-        "natural": true
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "alt": "تفاصيل المنتج",
-        "caption": "تفاصيل المنتج",
-        "natural": true
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "alt": "قسم الإلكترونيات",
-        "caption": "قسم الإلكترونيات",
-        "natural": true
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "alt": "تصفح الأقسام",
-        "caption": "تصفح الأقسام",
-        "natural": true
-      }
-    }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "الصفحة الرئيسية والتنقل",caption: "الصفحة الرئيسية والتنقل",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "فئات المنتجات والحملة",caption: "فئات المنتجات والحملة",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "عنوان الكتالوج",caption: "عنوان الكتالوج",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "شبكة المنتجات والفلاتر",caption: "شبكة المنتجات والفلاتر",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "تفاصيل المنتج",caption: "تفاصيل المنتج",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "المعرض ولوحات معلومات الدفع",caption: "المعرض ولوحات معلومات الدفع",natural:true} }
+]
 } as const satisfies ProjectContent;
