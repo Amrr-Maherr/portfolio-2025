@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/reeq-al-nahl/view-1.jpg";
-import view2 from "../../../assets/images/projects/reeq-al-nahl/view-2.jpg";
-import view3 from "../../../assets/images/projects/reeq-al-nahl/view-3.jpg";
-import view4 from "../../../assets/images/projects/reeq-al-nahl/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/reeq-al-nahl/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/reeq-al-nahl/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/reeq-al-nahl/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/reeq-al-nahl/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/reeq-al-nahl/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/reeq-al-nahl/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -16,47 +18,7 @@ export default {
   "videoBorder": false,
   "description": "An Arabic honey and bee-products storefront on the Zid platform. Its interface brings together promotional sections, product collections, catalogue cards, product detail pages and shopping controls for a multi-category honey retailer.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "natural": true,
-        "alt": "Homepage",
-        "caption": "Homepage"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "natural": true,
-        "alt": "Honey collection",
-        "caption": "Honey collection"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "natural": true,
-        "alt": "Product details",
-        "caption": "Product details"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "natural": true,
-        "alt": "Bestsellers",
-        "caption": "Bestsellers"
-      }
-    },
-    {
+{
       "type": "list",
       "props": {
         "title": "Key Features",
@@ -67,7 +29,13 @@ export default {
           "Arabic storefront for a retailer with physical branches"
         ]
       }
-    }
-  ],
+    },
+{ type: "media", props: {type: "image",src: fresh0,alt: "Homepage hero",caption: "Homepage hero",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "Product categories",caption: "Product categories",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "Honey collection banner",caption: "Honey collection banner",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "Bestselling products",caption: "Bestselling products",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "Product detail layout",caption: "Product detail layout",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "Product description section",caption: "Product description section",natural:true} }
+],
   "live": "https://reeqalnahl.com/"
 } as const satisfies ProjectContent;
