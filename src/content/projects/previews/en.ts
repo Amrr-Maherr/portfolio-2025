@@ -121,7 +121,7 @@ export default [
   "title": "Beans United",
   "slug": "beans-united",
   "thumbnail": newThumb4,
-  "description": "Bilingual specialty-coffee storefront"
+  "description": "Bilingual specialty-coffee corporate website"
 },
 {
   "title": "Foushi Events",

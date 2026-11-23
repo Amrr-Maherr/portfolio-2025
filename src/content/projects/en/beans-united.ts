@@ -8,13 +8,12 @@ export default {
   "title": "Beans United",
   "theme": "light",
   "tags": [
-    "ecommerce",
     "coffee",
     "bilingual",
     "rtl"
   ],
   "videoBorder": false,
-  "description": "A Saudi specialty-coffee e-commerce platform combining premium coffee brands, brewing tools, a loyalty program, educational coffee content, and professional machine maintenance services in one storefront.",
+  "description": "A bilingual corporate website for a Saudi specialty-coffee business. It presents the company and its coffee origins, brands and business partnerships, with dedicated Investor Relations, Blogs and Careers pages.",
   "components": [
     {
       "type": "media",
@@ -22,8 +21,8 @@ export default {
         "type": "image",
         "src": view1,
         "natural": true,
-        "alt": "English homepage",
-        "caption": "English homepage"
+        "alt": "Homepage",
+        "caption": "Homepage"
       }
     },
     {
@@ -32,8 +31,8 @@ export default {
         "type": "image",
         "src": view2,
         "natural": true,
-        "alt": "Coffee brands",
-        "caption": "Coffee brands"
+        "alt": "Investor Relations",
+        "caption": "Investor Relations"
       }
     },
     {
@@ -42,8 +41,8 @@ export default {
         "type": "image",
         "src": view3,
         "natural": true,
-        "alt": "Arabic homepage",
-        "caption": "Arabic homepage"
+        "alt": "Blogs",
+        "caption": "Blogs"
       }
     },
     {
@@ -52,21 +51,8 @@ export default {
         "type": "image",
         "src": view4,
         "natural": true,
-        "alt": "Coffee origins map",
-        "caption": "Coffee origins map"
-      }
-    },
-    {
-      "type": "list",
-      "props": {
-        "title": "Key Features",
-        "items": [
-          "Curated specialty coffee brands and brewing tools",
-          "Integrated loyalty program",
-          "Educational content about coffee origins",
-          "Professional coffee machine maintenance (Team Jabber)",
-          "Clean responsive design"
-        ]
+        "alt": "Careers",
+        "caption": "Careers"
       }
     }
   ],

@@ -121,7 +121,7 @@ export default [
   "title": "بينز يونايتد",
   "slug": "beans-united",
   "thumbnail": newThumb4,
-  "description": "متجر ثنائي اللغة للقهوة المختصة"
+  "description": "موقع تعريفي ثنائي اللغة للقهوة المختصة"
 },
 {
   "title": "فوشي لتنظيم الفعاليات",
