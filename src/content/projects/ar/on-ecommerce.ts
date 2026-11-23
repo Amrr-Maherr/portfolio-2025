@@ -6,14 +6,14 @@ import on0 from "../../../assets/images/projects/on-ecommerce/on-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "On - Athletic eCommerce",
+  title: "On - متجر ملابس وأحذية رياضية",
   theme: "dark",
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "zod", "framer", "swiper", "reacthookform"],
   videoBorder: false,
   live: "https://on-pied.vercel.app",
   source: "https://github.com/Amrr-Maherr/On",
   description:
-    "منصة تجارة إلكترونية بجودة إنتاجية مع نظام تصميم وحشي مخصص ودعم كامل للوضع الداكن.<br/><br/>تتميز بتصفية منتجات متقدمة، واستمرارية سلة التسوق وقائمة الرغبات، وتدفقات المصادقة مع React Hook Form والتحقق من Zod، وتحسين الأداء من خلال التحميل البطيء وتحسين الرسوم المتحركة.",
+    "واجهة متجر للملابس والأحذية الرياضية مبنية باستخدام React وTypeScript. تجمع بين تصفح المجموعات وفلاتر المنتجات وصفحات التفاصيل وواجهات السلة والمفضلة ونماذج تسجيل الدخول، مع دعم الوضع الداكن.",
   components: [
     {
       type: "media",

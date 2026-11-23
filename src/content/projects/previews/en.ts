@@ -40,43 +40,43 @@ export default [
 {"title": "AlSaif Trading Agencies Store", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "Home appliances and cookware storefront"},
 {"title": "Diriyah Club - Official Website", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "Official club website and news"},
 {
-    title: "Atlas ERP",
+    title: "Atlas ERP - Inventory and Sales Dashboard",
     slug: "atlas-erp",
     thumbnail: thumbnailAtlas,
     description: "Enterprise ERP dashboard",
   },
 {
-  "title": "ININ Sport",
+  "title": "ININ Sport - Sportswear Store",
   "slug": "inin-sport",
   "thumbnail": thumbInin,
   "description": "Sportswear and activewear storefront"
 },
 {
-    "title": "Leen World",
+    "title": "Leen World - Dates and Gifts Store",
     "slug": "leen-world",
     "thumbnail": thumb0,
     "description": "Premium dates and gifts storefront"
 },
 {
-    "title": "Maden Florist",
+    "title": "Maden Florist - Flowers and Gifts Store",
     "slug": "maden-florist",
     "thumbnail": thumb1,
     "description": "Flowers and gifts storefront"
 },
 {
-    "title": "Al Jazea Pharmacy",
+    "title": "Al Jazea Pharmacy - Online Store",
     "slug": "aljazea-pharmacy",
     "thumbnail": thumb2,
     "description": "Online pharmacy storefront"
 },
 {
-    title: "On - Athletic eCommerce",
+    title: "On - Athletic E-Commerce",
     slug: "on-ecommerce",
     thumbnail: thumbnailOn,
-    description: "Production-grade eCommerce platform",
+    description: "Athletic e-commerce front end",
   },
 {
-    title: "IMDB Stream",
+    title: "IMDB Stream - Movies and TV Discovery",
     slug: "imdb-stream",
     thumbnail: thumbnailImdb,
     description: "Bilingual movie & TV discovery platform",
@@ -88,13 +88,13 @@ export default [
     description: "AI-powered eCommerce mobile app",
   },
 {
-    title: "YouTube Clone",
+    title: "YouTube Clone - Video Search and Channels",
     slug: "youtube-clone",
     thumbnail: thumbnailYoutube,
     description: "Video streaming platform",
   },
 {
-  "title": "Nexton E-Commerce",
+  "title": "Nexton - E-Commerce Front End",
   "slug": "nexton-ecommerce",
   "thumbnail": newThumb0,
   "description": "Front-end eCommerce application"
@@ -106,37 +106,37 @@ export default [
   "description": "Honey and bee products storefront"
 },
 {
-  "title": "Sakb Perfumes",
+  "title": "Sakb Perfumes - Fragrance Store",
   "slug": "sakib",
   "thumbnail": newThumb2,
   "description": "Perfume storefront front-end work"
 },
 {
-  "title": "Nannocare",
+  "title": "Nannocare - Personal Care Store",
   "slug": "nannocare",
   "thumbnail": newThumb3,
   "description": "Global eCommerce front-end work"
 },
 {
-  "title": "Beans United",
+  "title": "Beans United - Specialty Coffee Corporate Website",
   "slug": "beans-united",
   "thumbnail": newThumb4,
   "description": "Bilingual specialty-coffee corporate website"
 },
 {
-  "title": "Foushi Events",
+  "title": "Foushi Events - Event Planning Website",
   "slug": "foushi-events",
   "thumbnail": newThumb5,
   "description": "Arabic event services website"
 },
 {
-  "title": "YumAuth",
+  "title": "YumAuth - Recipe Browser",
   "slug": "yumauth",
   "thumbnail": newThumb6,
   "description": "Recipe browsing and authentication app"
 },
 {
-  "title": "Charlotte Sweets",
+  "title": "Charlotte Sweets - Store and Management Dashboard",
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "Sweet shop storefront and control panel"

@@ -7,7 +7,7 @@ import view4 from "../../../assets/images/projects/yumauth/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "YumAuth",
+  "title": "YumAuth - Recipe Browser",
   "theme": "light",
   "tags": [
     "react",

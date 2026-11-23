@@ -5,14 +5,14 @@ import view4 from "../../../assets/images/projects/sakib/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "عطور سكب",
+  "title": "عطور سكب - متجر عطور",
   "theme": "light",
   "tags": [
     "zid",
     "ecommerce"
   ],
   "videoBorder": false,
-  "description": "عمل على واجهة متجر علامة سكب للعطور على منصة زد، ضمن العمل في NEOXERO.",
+  "description": "واجهة متجر عربية لعلامة عطور سكب على منصة زد، تعرض العلامة ومجموعات العطور وواجهات التسوق للمنتجات.",
   "components": [
     {
       "type": "media",

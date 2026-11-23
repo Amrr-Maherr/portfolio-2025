@@ -5,7 +5,7 @@ import screen from "../../../assets/images/projects/leen-world/screen-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "لين",
+  "title": "لين - متجر التمور والهدايا",
   "theme": "light",
   "tags": [],
   "videoBorder": true,

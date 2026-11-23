@@ -6,14 +6,14 @@ import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "IMDB Stream",
+  title: "IMDB Stream - Movies and TV Discovery",
   theme: "dark",
   tags: ["next", "typescript", "react", "tailwind", "shadcn", "axios", "firebase"],
   videoBorder: false,
   live: "https://imdb-stream.vercel.app",
   source: "https://github.com/Amrr-Maherr/imdb-stream",
   description:
-    "A bilingual (EN/AR, RTL) movie and TV discovery platform built with Next.js App Router and TypeScript, using hybrid Server/Client Component rendering with ISR for TMDb data.<br/><br/>Features Firebase authentication (email, Google, phone, guest), Firestore-backed favorites and watchlist, and a Groq-powered AI recommendation assistant.",
+    "A bilingual English and Arabic movie and TV discovery app built with Next.js and TypeScript. It includes searchable catalogues, movie and person detail pages, Firebase sign-in, favourites and watchlists, and an AI recommendation assistant. Its Arabic interface supports right-to-left layouts.",
   components: [
     {
       type: "media",

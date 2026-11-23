@@ -5,14 +5,14 @@ import view4 from "../../../assets/images/projects/sakib/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Sakb Perfumes",
+  "title": "Sakb Perfumes - Fragrance Store",
   "theme": "light",
   "tags": [
     "zid",
     "ecommerce"
   ],
   "videoBorder": false,
-  "description": "Storefront front-end work for the Sakb perfume brand on the Zid platform, done during work at NEOXERO.",
+  "description": "An Arabic fragrance storefront for Sakb Perfumes on the Zid platform, presenting the brand, perfume collections and product-shopping interfaces.",
   "components": [
     {
       "type": "media",

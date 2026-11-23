@@ -40,61 +40,61 @@ export default [
 {"title": "متجر السيف للتوكيلات التجارية", "slug": "alsaif", "thumbnail": thumb_alsaif, "description": "متجر الأجهزة المنزلية وأدوات الطهي"},
 {"title": "نادي الدرعية - الموقع الرسمي", "slug": "al-diriyah", "thumbnail": thumb_diriyah, "description": "الموقع الرسمي وأخبار النادي"},
 {
-    title: "Atlas ERP",
+    title: "Atlas ERP - لوحة إدارة المخزون والمبيعات",
     slug: "atlas-erp",
     thumbnail: thumbnailAtlas,
     description: "لوحة تحكم ERP للمؤسسات",
   },
 {
-  "title": "إن إن سبورت",
+  "title": "إن إن سبورت - متجر ملابس رياضية",
   "slug": "inin-sport",
   "thumbnail": thumbInin,
   "description": "متجر ملابس رياضية"
 },
 {
-    "title": "لين",
+    "title": "لين - متجر التمور والهدايا",
     "slug": "leen-world",
     "thumbnail": thumb0,
     "description": "متجر تمور وهدايا فاخرة"
 },
 {
-    "title": "مادن فلورست",
+    "title": "مادن فلورست - متجر الورود والهدايا",
     "slug": "maden-florist",
     "thumbnail": thumb1,
     "description": "متجر ورود وهدايا"
 },
 {
-    "title": "صيدلية الجازع",
+    "title": "صيدلية الجازع - متجر إلكتروني",
     "slug": "aljazea-pharmacy",
     "thumbnail": thumb2,
     "description": "متجر صيدلية إلكتروني"
 },
 {
-    title: "On - Athletic eCommerce",
+    title: "On - متجر ملابس وأحذية رياضية",
     slug: "on-ecommerce",
     thumbnail: thumbnailOn,
-    description: "منصة تجارة إلكترونية إنتاجية",
+    description: "واجهة متجر ملابس وأحذية رياضية",
   },
 {
-    title: "IMDB Stream",
+    title: "IMDB Stream - استكشاف الأفلام والمسلسلات",
     slug: "imdb-stream",
     thumbnail: thumbnailImdb,
     description: "منصة استكشاف أفلام ومسلسلات ثنائية اللغة",
   },
 {
-    title: "Viva - تطبيق تسوق ذكي",
+    title: "Viva - تطبيق تسوق بمساعد ذكي",
     slug: "viva",
     thumbnail: thumbnailViva,
     description: "تطبيق تجارة إلكترونية مدعوم بالذكاء الاصطناعي",
   },
 {
-    title: "YouTube Clone",
+    title: "YouTube Clone - بحث الفيديو والقنوات",
     slug: "youtube-clone",
     thumbnail: thumbnailYoutube,
     description: "منصة بث فيديو",
   },
 {
-  "title": "نكستون للتجارة الإلكترونية",
+  "title": "نكستون - واجهة متجر إلكتروني",
   "slug": "nexton-ecommerce",
   "thumbnail": newThumb0,
   "description": "تطبيق واجهة أمامية للتجارة الإلكترونية"
@@ -106,37 +106,37 @@ export default [
   "description": "متجر للعسل ومنتجات النحل"
 },
 {
-  "title": "عطور سكب",
+  "title": "عطور سكب - متجر عطور",
   "slug": "sakib",
   "thumbnail": newThumb2,
   "description": "عمل على واجهة متجر عطور"
 },
 {
-  "title": "نانوكير",
+  "title": "نانوكير - متجر عناية شخصية",
   "slug": "nannocare",
   "thumbnail": newThumb3,
   "description": "تطوير واجهة متجر إلكتروني عالمي"
 },
 {
-  "title": "بينز يونايتد",
+  "title": "بينز يونايتد - موقع شركة قهوة مختصة",
   "slug": "beans-united",
   "thumbnail": newThumb4,
   "description": "موقع تعريفي ثنائي اللغة للقهوة المختصة"
 },
 {
-  "title": "فوشي لتنظيم الفعاليات",
+  "title": "فوشي - موقع تنظيم الفعاليات",
   "slug": "foushi-events",
   "thumbnail": newThumb5,
   "description": "موقع عربي لخدمات تنظيم الفعاليات"
 },
 {
-  "title": "يوم أوث",
+  "title": "يوم أوث - تطبيق تصفح الوصفات",
   "slug": "yumauth",
   "thumbnail": newThumb6,
   "description": "تطبيق لتصفح الوصفات وتسجيل الدخول"
 },
 {
-  "title": "شارلوت سويتس",
+  "title": "شارلوت سويتس - متجر ولوحة إدارة",
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "متجر حلويات ولوحة تحكم"

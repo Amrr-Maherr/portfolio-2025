@@ -7,7 +7,7 @@ import fresh5 from "../../../assets/images/projects/beans-united/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "بينز يونايتد",
+  "title": "بينز يونايتد - موقع شركة قهوة مختصة",
   "theme": "light",
   "tags": [
     "coffee",

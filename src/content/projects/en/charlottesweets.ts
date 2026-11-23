@@ -5,7 +5,7 @@ import view4 from "../../../assets/images/projects/charlottesweets/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Charlotte Sweets",
+  "title": "Charlotte Sweets - Store and Management Dashboard",
   "theme": "light",
   "tags": [
     "react",

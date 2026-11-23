@@ -12,7 +12,7 @@ export default {
   videoBorder: false,
   source: "https://github.com/Amrr-Maherr/Viva",
   description:
-    "A cross-platform eCommerce mobile app built with React Native, Expo, and TypeScript, combining a full shopping experience with a Groq-powered (Llama 3.1) AI shopping assistant.<br/><br/>Features JWT-based authentication, product catalog with infinite scroll, cart, wishlist, checkout, order management, and Google Maps address selection.",
+    "A React Native and Expo shopping app with TypeScript. The source includes product browsing, cart, wishlist, checkout and order screens, authentication and password recovery, address selection, and a Groq-powered shopping assistant. The gallery shows local web previews of the onboarding and authentication screens, not a completed purchase or signed-in shopping session.",
   components: [
     { type: "media", props: { type: "image", src: local0, alt: "Onboarding, local app web preview", caption: "Onboarding, local app web preview", natural: true, portrait: true } },
     { type: "media", props: { type: "image", src: local1, alt: "Login, local app web preview", caption: "Login, local app web preview", natural: true, portrait: true } },

@@ -7,7 +7,7 @@ import view4 from "../../../assets/images/projects/nexton-ecommerce/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "نكستون للتجارة الإلكترونية",
+  "title": "نكستون - واجهة متجر إلكتروني",
   "theme": "light",
   "tags": [
     "next",
@@ -20,7 +20,7 @@ export default {
     "radix"
   ],
   "videoBorder": false,
-  "description": "متجر إلكتروني حديث مبني بـNext.js 15 وReact 19 من تصميم Figma مخصص، مع صفحات منتجات ديناميكية وسلة تسوق ودفع تفاعلي ومدفوعات عبر PayPal.",
+  "description": "واجهة متجر إلكتروني مبنية باستخدام Next.js 15 وReact 19. تضم أقسام المجموعات وفلاتر المنتجات وصفحات التفاصيل وواجهات السلة والدفع وشاشات الحساب. يتضمن الكود تكاملاً مع PayPal، وتعرض الصور واجهة المتجر دون الادعاء بتنفيذ عملية دفع فعلية.",
   "components": [
 {
       "type": "media",

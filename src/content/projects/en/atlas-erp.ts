@@ -7,7 +7,7 @@ import atlas0 from "../../../assets/images/projects/atlas-erp/atlas-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Atlas ERP",
+  title: "Atlas ERP - Inventory and Sales Dashboard",
   theme: "light",
   tags: ["next", "typescript", "react", "tailwind", "shadcn", "tanstack", "axios"],
   videoBorder: true,

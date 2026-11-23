@@ -6,14 +6,14 @@ import imdb0 from "../../../assets/images/projects/imdb-stream/imdb-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "IMDB Stream",
+  title: "IMDB Stream - استكشاف الأفلام والمسلسلات",
   theme: "dark",
   tags: ["next", "typescript", "react", "tailwind", "shadcn", "axios", "firebase"],
   videoBorder: false,
   live: "https://imdb-stream.vercel.app",
   source: "https://github.com/Amrr-Maherr/imdb-stream",
   description:
-    "منصة ثنائية اللغة (إنجليزي/عربي مع دعم RTL) لاستكشاف الأفلام والمسلسلات، مبنية بـNext.js App Router وTypeScript، مع عرض هجين لمكونات الخادم والعميل وISR لبيانات TMDb.<br/><br/>تتضمن مصادقة Firebase (بريد إلكتروني، Google، هاتف، زائر)، وقوائم مفضلة ومشاهدة مدعومة بـFirestore، ومساعد توصيات ذكي مدعوم بـGroq.",
+    "تطبيق لاستكشاف الأفلام والمسلسلات بالعربية والإنجليزية مبني باستخدام Next.js وTypeScript. يتضمن كتالوجات قابلة للبحث وصفحات تفاصيل الأعمال والأشخاص وتسجيل دخول عبر Firebase وقوائم المفضلة والمشاهدة ومساعد توصيات ذكي، مع دعم تخطيط من اليمين إلى اليسار في الواجهة العربية.",
   components: [
     {
       type: "media",

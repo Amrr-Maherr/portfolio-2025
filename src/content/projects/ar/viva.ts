@@ -6,13 +6,13 @@ import local3 from "../../../assets/images/projects/viva/local-3.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Viva - تطبيق تسوق ذكي",
+  title: "Viva - تطبيق تسوق بمساعد ذكي",
   theme: "dark",
   tags: ["reactnative", "expo", "typescript", "tanstack", "axios", "groq"],
   videoBorder: false,
   source: "https://github.com/Amrr-Maherr/Viva",
   description:
-    "تطبيق جوال للتجارة الإلكترونية متعدد المنصات مبني بـReact Native وExpo وTypeScript، يجمع تجربة تسوق كاملة مع مساعد تسوق ذكي مدعوم بـGroq (Llama 3.1).<br/><br/>يتضمن مصادقة قائمة على JWT، وكتالوج منتجات بتمرير لا نهائي، وسلة تسوق وقائمة رغبات ودفع وإدارة طلبات، واختيار العنوان عبر خرائط Google.",
+    "تطبيق تسوق مبني باستخدام React Native وExpo وTypeScript. يتضمن الكود شاشات تصفح المنتجات والسلة والمفضلة والدفع والطلبات وتسجيل الدخول واستعادة كلمة المرور واختيار العنوان ومساعد تسوق يعتمد على Groq. يعرض المعرض معاينات ويب محلية لشاشات البداية والمصادقة، وليس عملية شراء مكتملة أو جلسة تسوق بعد تسجيل الدخول.",
   components: [
     { type: "media", props: { type: "image", src: local0, alt: "البداية، معاينة ويب محلية للتطبيق", caption: "البداية، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },
     { type: "media", props: { type: "image", src: local1, alt: "تسجيل الدخول، معاينة ويب محلية للتطبيق", caption: "تسجيل الدخول، معاينة ويب محلية للتطبيق", natural: true, portrait: true } },

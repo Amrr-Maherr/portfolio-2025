@@ -5,7 +5,7 @@ import view4 from "../../../assets/images/projects/foushi-events/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Foushi Events",
+  "title": "Foushi Events - Event Planning Website",
   "theme": "light",
   "tags": [
     "react",
@@ -18,7 +18,7 @@ export default {
     "express"
   ],
   "videoBorder": false,
-  "description": "An Arabic-first event management website covering planning, coordination, decor, lighting, sound, and photography, with a contact/booking flow, built with React, TypeScript, Vite, and shadcn/ui.",
+  "description": "An Arabic-first event-planning website built with React, TypeScript and Vite. It presents event services, company information, a photo gallery and contact options, with light and dark themes.",
   "components": [
     {
       "type": "media",

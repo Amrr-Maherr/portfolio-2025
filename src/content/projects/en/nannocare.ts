@@ -5,7 +5,7 @@ import view4 from "../../../assets/images/projects/nannocare/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Nannocare",
+  "title": "Nannocare - Personal Care Store",
   "theme": "light",
   "tags": [
     "react",
@@ -14,7 +14,7 @@ export default {
     "accessibility"
   ],
   "videoBorder": false,
-  "description": "Front-end development for Nannocare&#x27;s global e-commerce website: reusable React components and Hooks, responsive layouts across devices, faster loading with reduced layout shifts, and accessibility and visual-consistency improvements.",
+  "description": "An e-commerce website for Nannocare personal-care products. It combines product collections, product detail pages, brand and technology information, and shopping controls in a product-focused storefront.",
   "components": [
     {
       "type": "media",
@@ -61,11 +61,11 @@ export default {
       "props": {
         "title": "Key Features",
         "items": [
-          "Reusable React functional components and Hooks",
+          "Product collection and detail interfaces",
           "Responsive layouts for mobile, tablet, and desktop",
-          "Performance optimization with minimized layout shifts",
-          "Accessibility and visual consistency improvements",
-          "Codebase refactoring for clean architecture"
+          "Brand and product-technology information",
+          "Product imagery and shopping controls",
+          "Product-focused storefront navigation"
         ]
       }
     }

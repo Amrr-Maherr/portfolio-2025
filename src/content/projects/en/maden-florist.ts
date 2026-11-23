@@ -7,7 +7,7 @@ import screen from "../../../assets/images/projects/maden-florist/screen-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Maden Florist",
+  "title": "Maden Florist - Flowers and Gifts Store",
   "theme": "light",
   "tags": [],
   "videoBorder": true,

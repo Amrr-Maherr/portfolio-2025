@@ -7,7 +7,7 @@ import fresh5 from "../../../assets/images/projects/beans-united/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Beans United",
+  "title": "Beans United - Specialty Coffee Corporate Website",
   "theme": "light",
   "tags": [
     "coffee",

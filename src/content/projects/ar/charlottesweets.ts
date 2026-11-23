@@ -5,7 +5,7 @@ import view4 from "../../../assets/images/projects/charlottesweets/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "شارلوت سويتس",
+  "title": "شارلوت سويتس - متجر ولوحة إدارة",
   "theme": "light",
   "tags": [
     "react",

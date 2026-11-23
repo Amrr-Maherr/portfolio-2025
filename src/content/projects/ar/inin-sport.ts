@@ -6,7 +6,7 @@ import gallery1 from "../../../assets/images/projects/inin-sport/gallery-1.jpg";
 import screen from "../../../assets/images/projects/inin-sport/screen-0.jpg";
 import type { ProjectContent } from "../../types";
 export default {
-  "title": "إن إن سبورت",
+  "title": "إن إن سبورت - متجر ملابس رياضية",
   "theme": "light",
   "tags": [],
   "videoBorder": true,

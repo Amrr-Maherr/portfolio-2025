@@ -14,7 +14,7 @@ export default {
     "api"
   ],
   "videoBorder": false,
-  "description": "A production eCommerce store for a Saudi honey retailer, built on the Zid platform using the Zid Platform API, Redux, and component-driven development with Storybook.",
+  "description": "An Arabic honey and bee-products storefront on the Zid platform. Its interface brings together promotional sections, product collections, catalogue cards, product detail pages and shopping controls for a multi-category honey retailer.",
   "components": [
     {
       "type": "media",
@@ -62,8 +62,8 @@ export default {
         "title": "Key Features",
         "items": [
           "Production store on the Zid platform",
-          "Component-driven development with Storybook",
-          "State management with Redux",
+          "Honey and bee-product collections",
+          "Product details and shopping controls",
           "Arabic storefront for a retailer with physical branches"
         ]
       }

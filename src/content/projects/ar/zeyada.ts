@@ -1,7 +1,9 @@
-import view1 from "../../../assets/images/projects/zeyada/view-1.jpg";
-import view2 from "../../../assets/images/projects/zeyada/view-2.jpg";
-import view3 from "../../../assets/images/projects/zeyada/view-3.jpg";
-import view4 from "../../../assets/images/projects/zeyada/view-4.jpg";
+import fresh0 from "../../../assets/images/projects/zeyada/six-1.jpg";
+import fresh1 from "../../../assets/images/projects/zeyada/six-2.jpg";
+import fresh2 from "../../../assets/images/projects/zeyada/six-3.jpg";
+import fresh3 from "../../../assets/images/projects/zeyada/six-4.jpg";
+import fresh4 from "../../../assets/images/projects/zeyada/six-5.jpg";
+import fresh5 from "../../../assets/images/projects/zeyada/six-6.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
@@ -16,45 +18,11 @@ export default {
   "videoBorder": false,
   "description": "واجهة متجر تجريبي للبقالة على منصة زد بواجهة عربية من اليمين إلى اليسار، وتنقل بين الأقسام، وقوائم منتجات، وفلاتر، وأقسام للعروض، وصفحات تفاصيل المنتجات. يعرض القالب تخطيط تسوق متعدد الأقسام مع عناصر بحث ومفضلة وسلة. هذا متجر توضيحي وليس نشاط بيع بالتجزئة فعلياً.",
   "components": [
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view1,
-        "natural": true,
-        "alt": "الصفحة الرئيسية",
-        "caption": "الصفحة الرئيسية"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view2,
-        "natural": true,
-        "alt": "قائمة المنتجات",
-        "caption": "قائمة المنتجات"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view3,
-        "natural": true,
-        "alt": "تفاصيل المنتج",
-        "caption": "تفاصيل المنتج"
-      }
-    },
-    {
-      "type": "media",
-      "props": {
-        "type": "image",
-        "src": view4,
-        "natural": true,
-        "alt": "تصفح الأقسام",
-        "caption": "تصفح الأقسام"
-      }
-    }
-  ]
+{ type: "media", props: {type: "image",src: fresh0,alt: "التنقل والبانر الرئيسي، متجر تجريبي",caption: "التنقل والبانر الرئيسي، متجر تجريبي",natural:true} },
+{ type: "media", props: {type: "image",src: fresh1,alt: "تنسيق العروض، متجر تجريبي",caption: "تنسيق العروض، متجر تجريبي",natural:true} },
+{ type: "media", props: {type: "image",src: fresh2,alt: "عنوان القسم ومسار التنقل، نسخة تجريبية",caption: "عنوان القسم ومسار التنقل، نسخة تجريبية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh3,alt: "بطاقات الكتالوج والفلاتر، نسخة تجريبية",caption: "بطاقات الكتالوج والفلاتر، نسخة تجريبية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh4,alt: "تفاصيل المنتج، بيانات تجريبية",caption: "تفاصيل المنتج، بيانات تجريبية",natural:true} },
+{ type: "media", props: {type: "image",src: fresh5,alt: "الكمية والمعرض وتبويبات المعلومات، نسخة تجريبية",caption: "الكمية والمعرض وتبويبات المعلومات، نسخة تجريبية",natural:true} }
+]
 } as const satisfies ProjectContent;

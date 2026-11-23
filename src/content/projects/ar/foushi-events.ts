@@ -5,7 +5,7 @@ import view4 from "../../../assets/images/projects/foushi-events/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "فوشي لتنظيم الفعاليات",
+  "title": "فوشي - موقع تنظيم الفعاليات",
   "theme": "light",
   "tags": [
     "react",
@@ -18,7 +18,7 @@ export default {
     "express"
   ],
   "videoBorder": false,
-  "description": "موقع عربي لإدارة وتنظيم الفعاليات يشمل التخطيط والتنسيق والديكور والإضاءة والصوت والتصوير مع نموذج تواصل وحجز، مبني بـReact وTypeScript وVite وshadcn/ui.",
+  "description": "موقع عربي لتنظيم الفعاليات مبني باستخدام React وTypeScript وVite. يعرض خدمات الفعاليات ومعلومات الشركة ومعرض الصور وطرق التواصل، مع وضعين فاتح وداكن.",
   "components": [
     {
       "type": "media",

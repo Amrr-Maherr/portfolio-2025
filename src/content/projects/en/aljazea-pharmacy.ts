@@ -5,7 +5,7 @@ import screen from "../../../assets/images/projects/aljazea-pharmacy/screen-0.jp
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Al Jazea Pharmacy",
+  "title": "Al Jazea Pharmacy - Online Store",
   "theme": "light",
   "tags": [],
   "videoBorder": true,

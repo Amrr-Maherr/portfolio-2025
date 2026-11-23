@@ -6,14 +6,14 @@ import youtube0 from "../../../assets/images/projects/youtube-clone/youtube-0.jp
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "YouTube Clone",
+  title: "YouTube Clone - بحث الفيديو والقنوات",
   theme: "light",
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "redux", "axios"],
   videoBorder: true,
   live: "https://youtube-omega-gilt-35.vercel.app",
   source: "https://github.com/Amrr-Maherr/Youtube",
   description:
-    "منصة بث فيديو سريعة الاستجابة مع بحث في الوقت الفعلي، وتصفح القنوات، وميزات تشغيل الفيديو.<br/><br/>تدير حالة التطبيق باستخدام Redux Toolkit وتحسن أداء التصيير من خلال التخزين المؤقت مع TanStack Query لتجربة مستخدم سلسة.",
+    "تطبيق لتصفح الفيديو مبني باستخدام React وTypeScript، يضم نتائج البحث وصفحات القنوات وتفاصيل الفيديو ومقاطع ذات صلة. يستخدم TanStack Query لجلب البيانات وRedux Toolkit لإدارة حالة التطبيق، مع واجهة متجاوبة مبنية باستخدام Tailwind CSS.",
   components: [
     {
       type: "media",

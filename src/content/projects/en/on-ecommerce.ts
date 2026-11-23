@@ -6,14 +6,14 @@ import on0 from "../../../assets/images/projects/on-ecommerce/on-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "On - Athletic eCommerce",
+  title: "On - Athletic E-Commerce",
   theme: "dark",
   tags: ["react", "typescript", "vite", "tailwind", "tanstack", "zod", "framer", "swiper", "reacthookform"],
   videoBorder: false,
   live: "https://on-pied.vercel.app",
   source: "https://github.com/Amrr-Maherr/On",
   description:
-    "A production-grade eCommerce platform with a custom brutalist-inspired design system and full dark mode support.<br/><br/>Features advanced product filtering, cart and wishlist persistence, authentication flows with React Hook Form and Zod validation, and performance optimisation through lazy loading and animation optimisation.",
+    "An athletic e-commerce front end built with React and TypeScript. It combines collection browsing, product filters, product detail pages, cart and wishlist interfaces, and sign-in forms in a dark-mode storefront.",
   components: [
     {
       type: "media",

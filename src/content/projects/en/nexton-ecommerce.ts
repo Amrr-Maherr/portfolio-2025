@@ -7,7 +7,7 @@ import view4 from "../../../assets/images/projects/nexton-ecommerce/view-4.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Nexton E-Commerce",
+  "title": "Nexton - E-Commerce Front End",
   "theme": "light",
   "tags": [
     "next",
@@ -20,7 +20,7 @@ export default {
     "radix"
   ],
   "videoBorder": false,
-  "description": "A modern front-end e-commerce application built with Next.js 15 and React 19 from a custom Figma design, featuring dynamic product pages, an interactive cart and checkout flow, and PayPal payments.",
+  "description": "An e-commerce front end built with Next.js 15 and React 19. It presents collection sections, product filters and detail pages, cart and checkout interfaces, and account screens. The source includes a PayPal payment integration; the gallery illustrates the storefront rather than a verified payment transaction.",
   "components": [
 {
       "type": "media",

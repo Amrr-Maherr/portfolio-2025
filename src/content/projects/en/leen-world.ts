@@ -5,7 +5,7 @@ import screen from "../../../assets/images/projects/leen-world/screen-0.jpg";
 import type { ProjectContent } from "../../types";
 
 export default {
-  "title": "Leen World",
+  "title": "Leen World - Dates and Gifts Store",
   "theme": "light",
   "tags": [],
   "videoBorder": true,
