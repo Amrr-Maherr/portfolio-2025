@@ -1,9 +1,9 @@
-import local0 from "../../../assets/images/projects/bazar/local-0.jpg";
-import local1 from "../../../assets/images/projects/bazar/local-1.jpg";
-import local2 from "../../../assets/images/projects/bazar/local-2.jpg";
-import local3 from "../../../assets/images/projects/bazar/local-3.jpg";
-import local4 from "../../../assets/images/projects/bazar/local-4.jpg";
-import local5 from "../../../assets/images/projects/bazar/local-5.jpg";
+import local0 from "../../../assets/images/projects/bazar/local-0.svg";
+import local1 from "../../../assets/images/projects/bazar/local-1.svg";
+import local2 from "../../../assets/images/projects/bazar/local-2.svg";
+import local3 from "../../../assets/images/projects/bazar/local-3.svg";
+import local4 from "../../../assets/images/projects/bazar/local-4.svg";
+import local5 from "../../../assets/images/projects/bazar/local-5.svg";
 
 import type { ProjectContent } from "../../types";
 
