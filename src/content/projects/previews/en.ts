@@ -26,9 +26,12 @@ import thumbnailAtlas from "../../../assets/images/projects/thumbnails/atlas-erp
 import thumbnailViva from "../../../assets/images/projects/thumbnails/viva.jpg";
 import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube-clone.jpg";
 
+import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainbox.svg";
+
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"BrainBox - AI Chat Mobile App",slug:"brainbox",thumbnail:thumbnailBrainbox,description:"AI chat app built with React Native and Gemini"},
 {title:"Senor - Pet Storefront Theme (Zid)",slug:"senor",thumbnail:thumb_senor,description:"Arabic pet storefront theme on Zid"},
 {title:"Zeyada - Grocery Storefront Demo (Zid)",slug:"zeyada",thumbnail:thumb_zeyada,description:"Arabic grocery storefront demo on Zid"},
 {title:"Education Market - School Supplies Store (Zid)",slug:"education-market",thumbnail:thumb_education_market,description:"School uniforms and supplies storefront"},
