@@ -26,12 +26,14 @@ import thumbnailAtlas from "../../../assets/images/projects/thumbnails/atlas-erp
 import thumbnailViva from "../../../assets/images/projects/thumbnails/viva.jpg";
 import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube-clone.jpg";
 
+import thumbNeoxero from "../../../assets/images/projects/thumbnails/neoxero.jpg";
 import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.svg";
 import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainbox.svg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"NEOXERO - موقع الوكالة الرقمية",slug:"neoxero",thumbnail:thumbNeoxero,description:"الموقع الرسمي لوكالة NEOXERO الرقمية المتكاملة"},
 {title:"Bazar - تطبيق مكتبة كتب",slug:"bazar",thumbnail:thumbBazar,description:"تطبيق مكتبة كتب بـReact Native مدعوم من OpenLibrary"},
 {title:"BrainBox - تطبيق شات بالذكاء الاصطناعي",slug:"brainbox",thumbnail:thumbnailBrainbox,description:"تطبيق شات مبني بـ React Native وGemini"},
 {title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب متجر للحيوانات الأليفة على منصة زد"},
