@@ -7,10 +7,22 @@ Built with **Vue 3**, **TypeScript**, and **Vite**. Motion via **GSAP** and **Le
 ## Features
 
 - **Project case studies** - 27 projects with per-locale copy, tags, media, and links, content-driven from `src/content/projects/{en,ar}/<slug>.ts` with slugs aligned to `projectIds` in `src/content/projects/index.ts`.
+
+  <img src="docs/screenshots/projects-grid.svg" alt="Portfolio projects grid" width="480">
+
+
+  <img src="docs/screenshots/project-case-study.svg" alt="Project case study page with key features" width="480">
+
 - **Experience, education, and courses sections** - also content-driven (`src/content/experience`, `src/content/education`, `src/content/courses`).
 - **Bilingual EN/AR** - full internationalization with a language switcher; locales defined in `src/i18n/constants` (English default, العربية), messages under `src/i18n/messages`.
 - **Animated scenes** - intro, scene, and waypoint-driven transitions with GSAP and Lenis smooth scrolling (`src/animations`).
+
+  <img src="docs/screenshots/hero.svg" alt="Portfolio hero scene" width="480">
+
 - **WebGL / GLSL** - custom three.js objects and shaders (`src/three`), with `.glsl`/`.vert`/`.frag` imports handled by `vite-plugin-glsl`.
+
+  <img src="docs/screenshots/about-hologram.svg" alt="Three.js hologram scene in the About section" width="480">
+
 - **Sound design** - UI sounds via Howler (`src/features/sounds`).
 - **Custom UI components** - custom cursor, hologram boxes, projected elements, notch sections, and appearing-text effects (`src/components`).
 
