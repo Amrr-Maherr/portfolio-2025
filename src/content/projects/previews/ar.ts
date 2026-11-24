@@ -26,12 +26,12 @@ import thumbnailAtlas from "../../../assets/images/projects/thumbnails/atlas-erp
 import thumbnailViva from "../../../assets/images/projects/thumbnails/viva.jpg";
 import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube-clone.jpg";
 
-import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainbox.svg";
+import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.jpg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
-{title:"BrainBox - تطبيق شات بالذكاء الاصطناعي",slug:"brainbox",thumbnail:thumbnailBrainbox,description:"تطبيق شات مبني بـ React Native وGemini"},
+{title:"Bazar - تطبيق مكتبة كتب",slug:"bazar",thumbnail:thumbBazar,description:"تطبيق مكتبة كتب بـReact Native مدعوم من OpenLibrary"},
 {title:"سينور - قالب متجر للحيوانات الأليفة (زد)",slug:"senor",thumbnail:thumb_senor,description:"قالب متجر للحيوانات الأليفة على منصة زد"},
 {title:"زيادة - متجر بقالة تجريبي (زد)",slug:"zeyada",thumbnail:thumb_zeyada,description:"متجر بقالة تجريبي على منصة زد"},
 {title:"إديوكيشن ماركت - متجر مستلزمات مدرسية (زد)",slug:"education-market",thumbnail:thumb_education_market,description:"متجر للزي والمستلزمات المدرسية"},
