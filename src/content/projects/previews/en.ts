@@ -26,7 +26,7 @@ import thumbnailAtlas from "../../../assets/images/projects/thumbnails/atlas-erp
 import thumbnailViva from "../../../assets/images/projects/thumbnails/viva.jpg";
 import thumbnailYoutube from "../../../assets/images/projects/thumbnails/youtube-clone.jpg";
 
-import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.jpg";
+import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.svg";
 
 import type { ProjectPreview } from "../../types";
 
