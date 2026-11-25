@@ -52,6 +52,13 @@ import thumb_products_dashboard from "../../../assets/images/projects/thumbnails
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"باب شرقي - متجر حلويات شرقية أونلاين",slug:"bab-sharqi",thumbnail:thumb_bab_sharqi,description:"متجر حلويات شرقية أونلاين"},
+{title:"بروميت - متجر إكسسوارات الجوال والكمبيوتر",slug:"promate",thumbnail:thumb_promate,description:"متجر إكسسوارات الجوال والكمبيوتر"},
+{title:"أو ماتشا - متجر ماتشا وأدوات الشاي أونلاين",slug:"o-matcha",thumbnail:thumb_o_matcha,description:"متجر ماتشا وأدوات الشاي"},
+{title:"ريفي - متجر أرواب الحمام والمناشف أونلاين",slug:"reefi",thumbnail:thumb_reefi,description:"متجر أرواب ومناشف أونلاين"},
+{title:"نادي القادسية - المتجر الرسمي أونلاين",slug:"al-qadsiah-store",thumbnail:thumb_al_qadsiah_store,description:"المتجر الرسمي للنادي"},
+{title:"دفة - متجر الثياب السعودية والأزياء الرجالية أونلاين",slug:"daffah",thumbnail:thumb_daffah,description:"متجر ثياب سعودية وأزياء رجالية"},
+{title:"الراجحي للساعات - متجر ساعات أونلاين",slug:"alrajhi-watches",thumbnail:thumb_alrajhi_watches,description:"متجر ساعات أونلاين"},
 {title:"سيف سايد - متجر منتجات السلامة (زد)",slug:"safeside",thumbnail:thumb_safeside,description:"متجر منتجات السلامة على زد"},
 {title:"أراسكو - متجر المستلزمات الزراعية",slug:"arasco",thumbnail:thumb_arasco,description:"متجر مستلزمات زراعية على زد"},
 {title:"منفرد - ديمو ثيم المفروشات والساعات الذكية (زد)",slug:"munfarid",thumbnail:thumb_munfarid,description:"ديمو ثيم مفروشات وساعات ذكية على زد"},
@@ -179,11 +186,4 @@ export default [
 {title:"Nectar - تطبيق تسوق بقالة",slug:"nectar",thumbnail:thumb_nectar,description:"تطبيق بقالة بـ React Native وExpo"},
 {title:"Legends - لوحات إدارة المهام والموظفين",slug:"legends",thumbnail:thumb_legends,description:"لوحات تحكم داخلية للإدارة والموظفين"},
 {title:"Products Dashboard - لوحة تحكم CRUD",slug:"products-dashboard",thumbnail:thumb_products_dashboard,description:"لوحة تحكم لإدارة المنتجات والتصنيفات"},
-{title:"باب شرقي - متجر حلويات شرقية أونلاين",slug:"bab-sharqi",thumbnail:thumb_bab_sharqi,description:"متجر حلويات شرقية أونلاين"},
-{title:"بروميت - متجر إكسسوارات الجوال والكمبيوتر",slug:"promate",thumbnail:thumb_promate,description:"متجر إكسسوارات الجوال والكمبيوتر"},
-{title:"أو ماتشا - متجر ماتشا وأدوات الشاي أونلاين",slug:"o-matcha",thumbnail:thumb_o_matcha,description:"متجر ماتشا وأدوات الشاي"},
-{title:"ريفي - متجر أرواب الحمام والمناشف أونلاين",slug:"reefi",thumbnail:thumb_reefi,description:"متجر أرواب ومناشف أونلاين"},
-{title:"نادي القادسية - المتجر الرسمي أونلاين",slug:"al-qadsiah-store",thumbnail:thumb_al_qadsiah_store,description:"المتجر الرسمي للنادي"},
-{title:"دفة - متجر الثياب السعودية والأزياء الرجالية أونلاين",slug:"daffah",thumbnail:thumb_daffah,description:"متجر ثياب سعودية وأزياء رجالية"},
-{title:"الراجحي للساعات - متجر ساعات أونلاين",slug:"alrajhi-watches",thumbnail:thumb_alrajhi_watches,description:"متجر ساعات أونلاين"},
 ] as const satisfies ProjectPreview[];
