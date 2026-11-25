@@ -1,3 +1,8 @@
+import thumb_safeside from "../../../assets/images/projects/thumbnails/safeside.jpg";
+import thumb_arasco from "../../../assets/images/projects/thumbnails/arasco.jpg";
+import thumb_munfarid from "../../../assets/images/projects/thumbnails/munfarid.jpg";
+import thumb_infinity_docs from "../../../assets/images/projects/thumbnails/infinity-docs.jpg";
+import thumb_baria from "../../../assets/images/projects/thumbnails/baria.jpg";
 import thumb_athar from "../../../assets/images/projects/thumbnails/athar.jpg";
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
@@ -34,6 +39,11 @@ import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainb
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"SafeSide - Safety Products Storefront (Zid)",slug:"safeside",thumbnail:thumb_safeside,description:"Safety products storefront on Zid"},
+{title:"Arasco - Agricultural Supplies Storefront",slug:"arasco",thumbnail:thumb_arasco,description:"Agricultural supplies storefront on Zid"},
+{title:"Munfarid - Home Textiles and Smart Watch Theme Demo (Zid)",slug:"munfarid",thumbnail:thumb_munfarid,description:"Home textiles and smartwatch theme demo on Zid"},
+{title:"Infinity Theme Docs - Feature and Settings Guide",slug:"infinity-docs",thumbnail:thumb_infinity_docs,description:"Documentation site for the Infinity Zid theme"},
+{title:"Baria - Electronics and Phones Storefront (Zid)",slug:"baria",thumbnail:thumb_baria,description:"Electronics and phones storefront on Zid"},
 {title:"NEOXERO - Digital Agency Website",slug:"neoxero",thumbnail:thumbNeoxero,description:"Official website of the NEOXERO full-service digital agency"},
 {title:"Bazar - Bookstore Mobile App",slug:"bazar",thumbnail:thumbBazar,description:"React Native bookstore app powered by OpenLibrary"},
 {title:"BrainBox - AI Chat Mobile App",slug:"brainbox",thumbnail:thumbnailBrainbox,description:"AI chat app built with React Native and Gemini"},

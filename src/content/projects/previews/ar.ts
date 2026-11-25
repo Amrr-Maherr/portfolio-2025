@@ -1,3 +1,8 @@
+import thumb_safeside from "../../../assets/images/projects/thumbnails/safeside.jpg";
+import thumb_arasco from "../../../assets/images/projects/thumbnails/arasco.jpg";
+import thumb_munfarid from "../../../assets/images/projects/thumbnails/munfarid.jpg";
+import thumb_infinity_docs from "../../../assets/images/projects/thumbnails/infinity-docs.jpg";
+import thumb_baria from "../../../assets/images/projects/thumbnails/baria.jpg";
 import thumb_athar from "../../../assets/images/projects/thumbnails/athar.jpg";
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
@@ -34,6 +39,11 @@ import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainb
 import type { ProjectPreview } from "../../types";
 
 export default [
+{title:"سيف سايد - متجر منتجات السلامة (زد)",slug:"safeside",thumbnail:thumb_safeside,description:"متجر منتجات السلامة على زد"},
+{title:"أراسكو - متجر المستلزمات الزراعية",slug:"arasco",thumbnail:thumb_arasco,description:"متجر مستلزمات زراعية على زد"},
+{title:"منفرد - ديمو ثيم المفروشات والساعات الذكية (زد)",slug:"munfarid",thumbnail:thumb_munfarid,description:"ديمو ثيم مفروشات وساعات ذكية على زد"},
+{title:"توثيق ثيم Infinity - دليل المميزات والإعدادات",slug:"infinity-docs",thumbnail:thumb_infinity_docs,description:"موقع توثيق ثيم Infinity على زد"},
+{title:"بارق - متجر إلكترونيات وهواتف (زد)",slug:"baria",thumbnail:thumb_baria,description:"متجر إلكترونيات وهواتف على زد"},
 {title:"NEOXERO - موقع الوكالة الرقمية",slug:"neoxero",thumbnail:thumbNeoxero,description:"الموقع الرسمي لوكالة NEOXERO الرقمية المتكاملة"},
 {title:"Bazar - تطبيق مكتبة كتب",slug:"bazar",thumbnail:thumbBazar,description:"تطبيق مكتبة كتب بـReact Native مدعوم من OpenLibrary"},
 {title:"BrainBox - تطبيق شات بالذكاء الاصطناعي",slug:"brainbox",thumbnail:thumbnailBrainbox,description:"تطبيق شات مبني بـ React Native وGemini"},
