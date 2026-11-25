@@ -1,3 +1,10 @@
+import thumb_bab_sharqi from "../../../assets/images/projects/thumbnails/bab-sharqi.jpg";
+import thumb_promate from "../../../assets/images/projects/thumbnails/promate.jpg";
+import thumb_o_matcha from "../../../assets/images/projects/thumbnails/o-matcha.jpg";
+import thumb_reefi from "../../../assets/images/projects/thumbnails/reefi.jpg";
+import thumb_al_qadsiah_store from "../../../assets/images/projects/thumbnails/al-qadsiah-store.jpg";
+import thumb_daffah from "../../../assets/images/projects/thumbnails/daffah.jpg";
+import thumb_alrajhi_watches from "../../../assets/images/projects/thumbnails/alrajhi-watches.jpg";
 import thumb_safeside from "../../../assets/images/projects/thumbnails/safeside.jpg";
 import thumb_arasco from "../../../assets/images/projects/thumbnails/arasco.jpg";
 import thumb_munfarid from "../../../assets/images/projects/thumbnails/munfarid.jpg";
@@ -172,4 +179,11 @@ export default [
 {title:"Nectar - Grocery Shopping Mobile App",slug:"nectar",thumbnail:thumb_nectar,description:"React Native and Expo grocery app"},
 {title:"Legends - Task & Employee Management Dashboards",slug:"legends",thumbnail:thumb_legends,description:"Internal admin and employee dashboards"},
 {title:"Products Dashboard - CRUD Admin Panel",slug:"products-dashboard",thumbnail:thumb_products_dashboard,description:"CRUD admin panel for products and categories"},
+{title:"Bab Sharqi - Oriental Sweets Online Store",slug:"bab-sharqi",thumbnail:thumb_bab_sharqi,description:"Oriental sweets online store"},
+{title:"Promate - Mobile and Computer Accessories Store",slug:"promate",thumbnail:thumb_promate,description:"Mobile and computer accessories store"},
+{title:"O Matcha - Matcha and Tea Accessories Online Store",slug:"o-matcha",thumbnail:thumb_o_matcha,description:"Matcha and tea accessories store"},
+{title:"Reefi - Bathrobes and Towels Online Store",slug:"reefi",thumbnail:thumb_reefi,description:"Bathrobes and towels online store"},
+{title:"Al Qadsiah Club - Official Online Store",slug:"al-qadsiah-store",thumbnail:thumb_al_qadsiah_store,description:"Official club shop"},
+{title:"Daffah - Saudi Thobes and Menswear Online Store",slug:"daffah",thumbnail:thumb_daffah,description:"Saudi thobes and menswear store"},
+{title:"Al-Rajhi Watches - Online Watch Store",slug:"alrajhi-watches",thumbnail:thumb_alrajhi_watches,description:"Online watch store"},
 ] as const satisfies ProjectPreview[];

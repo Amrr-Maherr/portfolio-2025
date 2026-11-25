@@ -1,3 +1,10 @@
+import thumb_bab_sharqi from "../../../assets/images/projects/thumbnails/bab-sharqi.jpg";
+import thumb_promate from "../../../assets/images/projects/thumbnails/promate.jpg";
+import thumb_o_matcha from "../../../assets/images/projects/thumbnails/o-matcha.jpg";
+import thumb_reefi from "../../../assets/images/projects/thumbnails/reefi.jpg";
+import thumb_al_qadsiah_store from "../../../assets/images/projects/thumbnails/al-qadsiah-store.jpg";
+import thumb_daffah from "../../../assets/images/projects/thumbnails/daffah.jpg";
+import thumb_alrajhi_watches from "../../../assets/images/projects/thumbnails/alrajhi-watches.jpg";
 import thumb_safeside from "../../../assets/images/projects/thumbnails/safeside.jpg";
 import thumb_arasco from "../../../assets/images/projects/thumbnails/arasco.jpg";
 import thumb_munfarid from "../../../assets/images/projects/thumbnails/munfarid.jpg";
@@ -172,4 +179,11 @@ export default [
 {title:"Nectar - تطبيق تسوق بقالة",slug:"nectar",thumbnail:thumb_nectar,description:"تطبيق بقالة بـ React Native وExpo"},
 {title:"Legends - لوحات إدارة المهام والموظفين",slug:"legends",thumbnail:thumb_legends,description:"لوحات تحكم داخلية للإدارة والموظفين"},
 {title:"Products Dashboard - لوحة تحكم CRUD",slug:"products-dashboard",thumbnail:thumb_products_dashboard,description:"لوحة تحكم لإدارة المنتجات والتصنيفات"},
+{title:"باب شرقي - متجر حلويات شرقية أونلاين",slug:"bab-sharqi",thumbnail:thumb_bab_sharqi,description:"متجر حلويات شرقية أونلاين"},
+{title:"بروميت - متجر إكسسوارات الجوال والكمبيوتر",slug:"promate",thumbnail:thumb_promate,description:"متجر إكسسوارات الجوال والكمبيوتر"},
+{title:"أو ماتشا - متجر ماتشا وأدوات الشاي أونلاين",slug:"o-matcha",thumbnail:thumb_o_matcha,description:"متجر ماتشا وأدوات الشاي"},
+{title:"ريفي - متجر أرواب الحمام والمناشف أونلاين",slug:"reefi",thumbnail:thumb_reefi,description:"متجر أرواب ومناشف أونلاين"},
+{title:"نادي القادسية - المتجر الرسمي أونلاين",slug:"al-qadsiah-store",thumbnail:thumb_al_qadsiah_store,description:"المتجر الرسمي للنادي"},
+{title:"دفة - متجر الثياب السعودية والأزياء الرجالية أونلاين",slug:"daffah",thumbnail:thumb_daffah,description:"متجر ثياب سعودية وأزياء رجالية"},
+{title:"الراجحي للساعات - متجر ساعات أونلاين",slug:"alrajhi-watches",thumbnail:thumb_alrajhi_watches,description:"متجر ساعات أونلاين"},
 ] as const satisfies ProjectPreview[];

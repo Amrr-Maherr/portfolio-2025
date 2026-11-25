@@ -1,6 +1,6 @@
 import type { Locale } from "../../i18n/types";
 
-export const projectIds = ["safeside","arasco","munfarid","infinity-docs","baria","neoxero","bazar","brainbox","senor","zeyada","education-market","sukarah","infinity-electronics","infinity-beauty","infinity-sports","alnassr","alsaif","al-diriyah","atlas-erp","inin-sport","leen-world","maden-florist","aljazea-pharmacy","on-ecommerce","imdb-stream","viva","youtube-clone","nexton-ecommerce","reeq-al-nahl","sakib","nannocare","beans-united","foushi-events","yumauth","charlottesweets","athar","cosmoscope","webmonster","qafalah-alayman","nectar","legends","products-dashboard"];
+export const projectIds = ["safeside","arasco","munfarid","infinity-docs","baria","neoxero","bazar","brainbox","senor","zeyada","education-market","sukarah","infinity-electronics","infinity-beauty","infinity-sports","alnassr","alsaif","al-diriyah","atlas-erp","inin-sport","leen-world","maden-florist","aljazea-pharmacy","on-ecommerce","imdb-stream","viva","youtube-clone","nexton-ecommerce","reeq-al-nahl","sakib","nannocare","beans-united","foushi-events","yumauth","charlottesweets","athar","cosmoscope","webmonster","qafalah-alayman","nectar","legends","products-dashboard","bab-sharqi","promate","o-matcha","reefi","al-qadsiah-store","daffah","alrajhi-watches"];
 
 function simplifyModules(glob: Record<string, any>) {
   const result: Record<string, any> = {};

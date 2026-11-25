@@ -8,6 +8,13 @@ export interface CourseEntry {
 
 export const courses: CourseEntry[] = [
   {
+    title: "React Native - Practical Guide",
+    organization: "Udemy",
+    period: "06/2026",
+    description:
+      "Practical course on building cross-platform mobile apps with React Native.",
+  },
+  {
     title: "Advanced React.js Course",
     organization: "Kemz Code",
     period: "09/2025 -- 11/2025",
