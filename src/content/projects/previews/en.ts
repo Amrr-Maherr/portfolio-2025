@@ -1,3 +1,4 @@
+import thumb_athar from "../../../assets/images/projects/thumbnails/athar.jpg";
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
@@ -147,5 +148,6 @@ export default [
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "Sweet shop storefront and control panel"
-}
+},
+{title:"Athar - Training & Consulting Brand Website",slug:"athar",thumbnail:thumb_athar,description:"Arabic RTL brand website for a training and consulting company"}
 ] as const satisfies ProjectPreview[];

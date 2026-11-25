@@ -1,3 +1,4 @@
+import thumb_athar from "../../../assets/images/projects/thumbnails/athar.jpg";
 import thumb_diriyah from "../../../assets/images/projects/thumbnails/al-diriyah.jpg";
 import thumb_alsaif from "../../../assets/images/projects/thumbnails/alsaif.jpg";
 import thumb_alnassr from "../../../assets/images/projects/thumbnails/alnassr.jpg";
@@ -147,5 +148,6 @@ export default [
   "slug": "charlottesweets",
   "thumbnail": newThumb7,
   "description": "متجر حلويات ولوحة تحكم"
-}
+},
+{title:"أثر - موقع براند للتدريب والاستشارات",slug:"athar",thumbnail:thumb_athar,description:"موقع عربي متعدد الصفحات لبراند تدريب واستشارات"}
 ] as const satisfies ProjectPreview[];
