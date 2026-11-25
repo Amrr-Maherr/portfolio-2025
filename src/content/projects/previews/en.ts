@@ -36,6 +36,12 @@ import thumbNeoxero from "../../../assets/images/projects/thumbnails/neoxero.jpg
 import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.svg";
 import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainbox.svg";
 
+import thumb_cosmoscope from "../../../assets/images/projects/thumbnails/cosmoscope.jpg";
+import thumb_webmonster from "../../../assets/images/projects/thumbnails/webmonster.jpg";
+import thumb_qafalah_alayman from "../../../assets/images/projects/thumbnails/qafalah-alayman.jpg";
+import thumb_nectar from "../../../assets/images/projects/thumbnails/nectar.jpg";
+import thumb_legends from "../../../assets/images/projects/thumbnails/legends.jpg";
+import thumb_products_dashboard from "../../../assets/images/projects/thumbnails/products-dashboard.jpg";
 import type { ProjectPreview } from "../../types";
 
 export default [
@@ -159,5 +165,11 @@ export default [
   "thumbnail": newThumb7,
   "description": "Sweet shop storefront and control panel"
 },
-{title:"Athar - Training & Consulting Brand Website",slug:"athar",thumbnail:thumb_athar,description:"Arabic RTL brand website for a training and consulting company"}
+{title:"Athar - Training & Consulting Brand Website",slug:"athar",thumbnail:thumb_athar,description:"Arabic RTL brand website for a training and consulting company"},
+{title:"CosmoScope - NASA Space Data Explorer",slug:"cosmoscope",thumbnail:thumb_cosmoscope,description:"Next.js app exploring NASA's open APIs"},
+{title:"Box&Buy - E-Commerce Store (WebMonster)",slug:"webmonster",thumbnail:thumb_webmonster,description:"React e-commerce store with a Node/Express API"},
+{title:"Qafalah Alayman - Umrah & Travel Booking Site",slug:"qafalah-alayman",thumbnail:thumb_qafalah_alayman,description:"Arabic RTL Umrah and travel booking website"},
+{title:"Nectar - Grocery Shopping Mobile App",slug:"nectar",thumbnail:thumb_nectar,description:"React Native and Expo grocery app"},
+{title:"Legends - Task & Employee Management Dashboards",slug:"legends",thumbnail:thumb_legends,description:"Internal admin and employee dashboards"},
+{title:"Products Dashboard - CRUD Admin Panel",slug:"products-dashboard",thumbnail:thumb_products_dashboard,description:"CRUD admin panel for products and categories"},
 ] as const satisfies ProjectPreview[];

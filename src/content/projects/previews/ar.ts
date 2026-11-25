@@ -36,6 +36,12 @@ import thumbNeoxero from "../../../assets/images/projects/thumbnails/neoxero.jpg
 import thumbBazar from "../../../assets/images/projects/thumbnails/bazar.svg";
 import thumbnailBrainbox from "../../../assets/images/projects/thumbnails/brainbox.svg";
 
+import thumb_cosmoscope from "../../../assets/images/projects/thumbnails/cosmoscope.jpg";
+import thumb_webmonster from "../../../assets/images/projects/thumbnails/webmonster.jpg";
+import thumb_qafalah_alayman from "../../../assets/images/projects/thumbnails/qafalah-alayman.jpg";
+import thumb_nectar from "../../../assets/images/projects/thumbnails/nectar.jpg";
+import thumb_legends from "../../../assets/images/projects/thumbnails/legends.jpg";
+import thumb_products_dashboard from "../../../assets/images/projects/thumbnails/products-dashboard.jpg";
 import type { ProjectPreview } from "../../types";
 
 export default [
@@ -159,5 +165,11 @@ export default [
   "thumbnail": newThumb7,
   "description": "متجر حلويات ولوحة تحكم"
 },
-{title:"أثر - موقع براند للتدريب والاستشارات",slug:"athar",thumbnail:thumb_athar,description:"موقع عربي متعدد الصفحات لبراند تدريب واستشارات"}
+{title:"أثر - موقع براند للتدريب والاستشارات",slug:"athar",thumbnail:thumb_athar,description:"موقع عربي متعدد الصفحات لبراند تدريب واستشارات"},
+{title:"CosmoScope - مستكشف بيانات ناسا",slug:"cosmoscope",thumbnail:thumb_cosmoscope,description:"تطبيق Next.js لاستكشاف واجهات ناسا المفتوحة"},
+{title:"Box&Buy - متجر إلكتروني (WebMonster)",slug:"webmonster",thumbnail:thumb_webmonster,description:"متجر إلكتروني بـ React مع واجهة Node/Express"},
+{title:"قافلة الأيمن - موقع حجز عمرة وسفر",slug:"qafalah-alayman",thumbnail:thumb_qafalah_alayman,description:"موقع عربي RTL لحجز العمرة والسفر"},
+{title:"Nectar - تطبيق تسوق بقالة",slug:"nectar",thumbnail:thumb_nectar,description:"تطبيق بقالة بـ React Native وExpo"},
+{title:"Legends - لوحات إدارة المهام والموظفين",slug:"legends",thumbnail:thumb_legends,description:"لوحات تحكم داخلية للإدارة والموظفين"},
+{title:"Products Dashboard - لوحة تحكم CRUD",slug:"products-dashboard",thumbnail:thumb_products_dashboard,description:"لوحة تحكم لإدارة المنتجات والتصنيفات"},
 ] as const satisfies ProjectPreview[];
